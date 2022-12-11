@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="main_menu">главное меню</string>
+    <string name="ex_info_data">Вы ввели дату в неверном формате, попробуйте еще раз.</string>
+
+    <string name="leapYear1">Это високосный год </string>
+    <string name="leapYear2">Всего дней в</string>
+    <string name="godu">году</string>
+    <string name="notLeapYear1">Это не високосный год</string>
+    <string name="notLeapYear2">Всего дней в</string>
+</resources>

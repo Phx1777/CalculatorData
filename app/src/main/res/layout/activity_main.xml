@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.myrza.calculatordata.MainActivity">
+
+
+    <Button
+        android:id="@+id/l_calculate_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:insetLeft="5dp"
+        android:insetTop="30dp"
+        android:insetRight="5dp"
+        android:insetBottom="10dp"
+
+        android:onClick="onClick"
+
+        android:text="@string/calculate_data"
+        android:textSize="25sp"
+
+        app:cornerRadius="30dp" />
+
+
+    <Button
+        android:id="@+id/l_info_about_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:insetLeft="5dp"
+        android:insetTop="10dp"
+        android:insetRight="5dp"
+        android:insetBottom="10dp"
+
+        android:onClick="onClick"
+
+        android:text="@string/get_date_information"
+
+        android:textSize="25sp"
+        app:cornerRadius="30dp" />
+
+</LinearLayout>

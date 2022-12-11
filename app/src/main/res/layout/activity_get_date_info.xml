@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClick"
+    android:orientation="vertical"
+    tools:context=".Get_date_info">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <EditText
+            android:id="@+id/date_info_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="@color/material_dynamic_neutral90"
+            android:hint="@string/dateInfoEdit"
+            android:inputType="text"
+            android:padding="17dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="25sp"
+
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/b_get_info_about_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:insetLeft="5dp"
+        android:insetTop="10dp"
+        android:insetRight="5dp"
+        android:insetBottom="10dp"
+
+        android:onClick="onClick"
+
+        android:text="@string/get_info"
+
+        android:textSize="25sp"
+        app:cornerRadius="30dp" />
+
+
+    <Button
+        android:id="@+id/restart_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:insetLeft="5dp"
+        android:insetTop="10dp"
+        android:insetRight="5dp"
+        android:insetBottom="10dp"
+
+        android:text="@string/restart"
+
+        android:textSize="25sp"
+        app:cornerRadius="30dp" />
+
+    <Button
+        android:id="@+id/b_to_main2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:insetLeft="5dp"
+        android:insetTop="10dp"
+        android:insetRight="5dp"
+        android:insetBottom="10dp"
+
+        android:onClick="onClick"
+        android:text="@string/main_menu"
+
+        android:textSize="25sp"
+        app:cornerRadius="30dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/info_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/material_dynamic_secondary20"
+            android:onClick="onClick"
+            android:text="@string/infoAboutDateTextView"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </ScrollView>
+
+</LinearLayout>

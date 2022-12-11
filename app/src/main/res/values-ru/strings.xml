@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Калькулятор даты</string>
+    <string name="first_date">Введите первую дату</string>
+    <string name="button_name">Подсчитать</string>
+    <string name="second_data">Введите вторую дату</string>
+    <string name="result">
+        Введите даты в таком формате через пробел:\nдень месяц год часы минуты
+        \nПример:\n30 5 2020\nЛибо в формате со временем:\n30 5 2020 12 30
+    </string>
+    <string name="restart">Очистить</string>
+    <string name="goodbye">Пока)</string>
+    <string name="sec">секунд</string>
+    <string name="min">минут</string>
+    <string name="hour">час</string>
+    <string name="day">дней</string>
+    <string name="week">недель</string>
+    <string name="month">месяц</string>
+    <string name="year">год</string>
+    <string name="interval">Интервал между датами составляет:</string>
+    <string name="exceptionDate2Later">Данные второй даты позднее первой, попробуйте снова.</string>
+    <string name="exceptionDatesEquals">Введенные вами даты одинаковы</string>
+    <string name="exceptionFormatData">Вы ввели дату или время в неверном формате!
+        \nВнимание, если Вы ввели одну дату с датой и временем то введите вторую так же.
+        \nПопробуйте еще раз.</string>
+    <string name="dateInfoEdit">Введите дату</string>
+    <string name="infoAboutDateTextView">Узнать информацию о дате\nВведите: день месяц год
+        \nПример: 31 12 2022</string>
+    <string name="get_info">Узнать</string>
+
+    <string name="january">Январь</string>
+    <string name="february">Февраль</string>
+    <string name="march">Март</string>
+    <string name="april">Апрель</string>
+    <string name="may">Май</string>
+    <string name="june">Июнь</string>
+    <string name="july">Июль</string>
+    <string name="august">Август</string>
+    <string name="september">Сентябрь</string>
+    <string name="october">Октябрь</string>
+    <string name="november">Ноябрь</string>
+    <string name="december">Декабрь</string>
+
+    <string name="sunday">Воскресенье</string>
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+
+    <string name="eto">Это</string>
+    <string name="denVgodu">день в году</string>
+
+    <string name="calculate_data">Калькулятор дат</string>
+    <string name="get_date_information">получить информацию о дате</string>
+    <string name="main_menu">главное меню</string>
+
+    <string name="ex_info_data">Вы ввели дату в неверном формате, попробуйте еще раз.</string>
+
+    <string name="leapYear1">Это високосный год </string>
+    <string name="leapYear2">Всего дней в</string>
+    <string name="godu">году</string>
+    <string name="notLeapYear1">Это не високосный год</string>
+    <string name="notLeapYear2">Всего дней в</string>
+</resources>
