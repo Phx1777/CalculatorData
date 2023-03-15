@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">Kuupäeva kalkulaator</string>
+    <string name="first_date">Sisestage esimene kuupäev</string>
+    <string name="button_name">loe kokku</string>
+    <string name="second_data">Sisestage teine kuupäev</string>
+    <string name="result">
+        Sisestage kuupäevad selles vormingus, eraldades need tühikutega:\npäev kuu aasta
+        \nNäide:\n31 12 2002\nVõi ajavormingus:\n31 12 2002 12 30
+    </string>
+    <string name="restart">Selge</string>
+    <string name="sec">sekundit</string>
+    <string name="min">minutit</string>
+    <string name="hour">tund</string>
+    <string name="day">päevadel</string>
+    <string name="week">nädalaid</string>
+    <string name="month">kuu</string>
+    <string name="year">aastal</string>
+    <string name="interval">Kuupäevade vaheline intervall on:</string>
+    <string name="exceptionDate2Later">Teise kuupäeva andmed on varasemast varasemad, proovige uuesti.</string>
+    <string name="exceptionDatesEquals">Teie sisestatud kuupäevad on samad</string>
+    <string name="exceptionFormatData">Sisestasite kuupäeva või kellaaja vales vormingus!
+        \n\nTähelepanu, kui sisestasite ühe kuupäeva koos kuupäeva ja kellaajaga, siis sisestage teine samamoodi.
+        \nProovige uuesti.</string>
+    <string name="infoAboutDateTextView">Otsige teavet kuupäeva kohta:\nSisestage: päev kuu Aasta
+        \nNäide: 31 12 2022\n\nVõite kasutada \"praegune kuupäev\" ja klõpsata nupul \"teada\"</string>
+    <string name="get_info">Teada</string>
+
+    <string name="january">jaanuaril</string>
+    <string name="february">veebruar</string>
+    <string name="march">märtsil</string>
+    <string name="april">aprill</string>
+    <string name="may">mai</string>
+    <string name="june">juunini</string>
+    <string name="july">juulil</string>
+    <string name="august">august</string>
+    <string name="september">septembril</string>
+    <string name="october">oktoober</string>
+    <string name="november">novembril</string>
+    <string name="december">detsembril</string>
+
+    <string name="sunday">pühapäev</string>
+    <string name="monday">esmaspäev</string>
+    <string name="tuesday">teisipäeval</string>
+    <string name="wednesday">kolmapäeval</string>
+    <string name="thursday">neljapäeval</string>
+    <string name="friday">reedel</string>
+    <string name="saturday">laupäeval</string>
+
+    <string name="eto">See</string>
+    <string name="denVgodu">aasta päev</string>
+
+    <string name="get_date_information">Kuupäeva teave</string>
+    <string name="main_menu">Peamenüü</string>
+
+    <string name="ex_info_data">Sisestasite kuupäeva vales vormingus, proovige uuesti.</string>
+
+    <string name="leapYear1">See on liigaasta </string>
+    <string name="leapYear2">Päevad kokku</string>
+    <string name="godu">aastal</string>
+    <string name="notLeapYear1">See ei ole liigaasta</string>
+    <string name="notLeapYear2">Päevad kokku</string>
+    <string name="b_cur_data">praegune kuupäev ja kellaaeg</string>
+    <string name="switch_button_on">praegune kuupäev ja kellaaeg (kaasas)</string>
+    <string name="switch_button_off">praegune kuupäev ja kellaaeg (keelatud)</string>
+    <string name="b_cur_data_get_info">Praegune kuupäev</string>
+    <string name="b_cur_data_on">praegune kuupäev (kaasa arvatud)</string>
+    <string name="b_cur_data_off">praegune kuupäev (keelatud)</string>
+    <string name="b_holidays">Pühad</string>
+    <string name="b_new_year">Uus aasta</string>
+    <string name="b_rojdestvo">jõulud</string>
+    <string name="b_march8">8. märts</string>
+    <string name="b_nauryz">Nauryz meiramy</string>
+    <string name="b_den_zawitnika_ote4estva">Isamaa kaitsja päev</string>
+    <string name="b_den_pobedy">Võidupüha</string>
+    <string name="b_kazakhstan">Kasahstan</string>
+    <string name="russia">Venemaa</string>
+    <string name="b_back_to_holidays_act">tagasi</string>
+    <string name="edinstvo_naroda_kz">Kasahstani rahva ühtsuse püha</string>
+    <string name="den_stolicy">Pealinna päev</string>
+    <string name="kurban_ait">Kurban Ait</string>
+    <string name="den_konstitucii">Kasahstani Vabariigi põhiseaduse päev</string>
+    <string name="do_ng_ostalos">Kuni uusaasta jäänud…</string>
+    <string name="ifNowNG">Head uut aastat!)</string>
+    <string name="ifNowRojdestvo">Häid jõule!</string>
+    <string name="doRojdestvaOstalos">Kuni jõuludeni on jäänud…</string>
+    <string name="den_nezavisimosti">iseseisvuspäev</string>
+    <string name="do_march8_ostalos">Kuni 8. märtsini jäänud…</string>
+    <string name="ifNow8March">Alates 8. märtsist!</string>
+    <string name="do_nauryz_ostalos">Kuni Nauryzi lahkumiseni…</string>
+    <string name="ifNowNauryz">Õnnitleme Nauryzi puhkuse puhul!</string>
+    <string name="do_kurban_ait_ostalos">Kuni Kurban Ait lahkus…</string>
+    <string name="ifNowKurbanAit">Õnnitleme teid Kurban Aiti püha puhul!</string>
+    <string name="do_den_edinst_naroda">Kuni Kasahstani rahva ühtsuse päevani…</string>
+    <string name="ifNowDenEdinstvNar">Õnnitleme Kasahstani rahva ühtsuse päeva puhul!</string>
+    <string name="do_den_zawitnika_ot">Kuni isamaakaitsja lahkumise päevani…</string>
+    <string name="ifNowDenZawitnikaOt">Õnnitleme Isamaa kaitsja päeva puhul!</string>
+    <string name="do_den_stolicy">Kuni pealinna päevani lahkus…</string>
+    <string name="ifNowDenStolicy">Õnnitleme pealinnapäeva puhul!</string>
+    <string name="do_den_pobedy_ostalos">Jääb võidupühani…</string>
+    <string name="ifNowDenPobedy">Õnnitleme võidupüha puhul!</string>
+    <string name="do_den_nezavisimosti">Kuni taasiseseisvumispäevani…</string>
+    <string name="ifNowDenNezavisimosti">Õnnitleme teid Kasahstani Vabariigi iseseisvuspäeva puhul!</string>
+    <string name="do_den_konstitucii">Kuni põhiseaduse päevani…</string>
+    <string name="ifNowDenKonstitucii">Õnnitleme Kasahstani Vabariigi põhiseaduse päeva puhul!</string>
+    <string name="budetDobavleno">Lisatakse järgmises värskenduses</string>
+    <string name="res_den_narod_edinstva_ru">Kuni rahvusliku ühtsuse päevani lahkus…</string>
+    <string name="res_ifNowDenNarodEdinstva_ru">Õnnitleme rahvusliku ühtsuse päeva puhul!</string>
+    <string name="res_do_den_rossii">Kuni lahkus Venemaa päev…</string>
+    <string name="res_if_now_den_rossii">Õnnitleme teid Venemaa päeva puhul!</string>
+    <string name="res_do_maslenicy">Kuni vastlapäevani…</string>
+    <string name="res_if_now_maslenica">Õnnitlused Maslenitsa puhul!</string>
+    <string name="res_do_pashi_ost">Kuni lihavõttepühade lõpuni…</string>
+    <string name="res_if_now_pasha">Häid lihavõtteid!</string>
+    <string name="res_do_prazd_vesny_i_truda_ost">Kuni kevad- ja tööpühade lahkumiseni…</string>
+    <string name="res_if_now_prazd_vesny_i_truda">Õnnitleme kevad- ja tööpüha puhul!</string>
+    <string name="b_maslenica">Maslenitsa</string>
+    <string name="b_pasha">lihavõtted</string>
+    <string name="b_prazd_vesny_i_truda">talgupäev</string>
+    <string name="b_den_rossii">Venemaa päev</string>
+    <string name="b_den_narod_edinstva">Rahvusliku ühtsuse päev</string>
+    <string name="res_b_count_work_and_hol_days">Töö- ja puhkepäevade lugemine</string>
+    <string name="res_textView_pods4et_rab_i_vyh_dney">\nTööpäevade ja puhkepäevade lugemine
+    Valige tööpäevad.</string>
+    <string name="working_days">Tööpäevad</string>
+    <string name="hol_days">puhkepäevadel</string>
+    <string name="day_month_year">päev kuu aasta</string>
+    <string name="exception_format_data_for_calc_workig_days">
+        Sisestasite kuupäeva vales vormingus\nProovige sisestada esimene \nPäev Kuu Aasta tühikuga eraldatuna
+        \nNäiteks: 12 05 2020
+    </string>
+    <string name="res_b_counting_time">Aja lugemine</string>
+    <string name="res_edit_year">aastat</string>
+    <string name="res_edit_month">kuud</string>
+    <string name="res_edit_weeks">nädalaid</string>
+    <string name="res_edit_days">päevadel</string>
+    <string name="res_edit_hour">tundi</string>
+    <string name="res_edit_min">minutit</string>
+    <string name="res_edit_sec">sekundit</string>
+    <string name="res_enter_date">Sisestage kuupäev</string>
+
+    <string name="exception_format_data_for_counting_date">
+       Sisestasite kuupäeva vales vormingus\nProovige kõigepealt sisestada \nPäev Kuu Aasta läbi tühiku
+        \nNäiteks: 12 05 2020
+        \nvõi formaadis ajaga
+        \n12 05 2020 12 30
+    </string>
+
+    <string name="info1_for_counting_date">Tulemus: </string>
+    <string name="info2_for_counting_date">Uus kuupäev - </string>
+    <string name="info3_for_counting_date">Uus aeg - </string>
+    <string name="info4_for_counting_date">Nädalapäev - </string>
+
+    <string name="res_b_plus">Lisa kuupäevale (kaasas)</string>
+    <string name="res_b_minus">Kuupäevast lahutamine (lubatud)</string>
+    <string name="res_textview_counting_date">Aja arvutamine.\nSisestage päev kuu aasta
+        \nNäiteks: 12 12 2020 \nVõi formaadis ajaga\n12 12 2020 13 00</string>
+    <string name="res_b_plus2">Lisa kuupäevale (keelatud)</string>
+    <string name="res_b_minus2">Kuupäevast lahutamine (keelatud)</string>
+
+    <string name="res_if_2_button_true">(+) ja (-) ei saa korraga valida</string>
+    <string name="res_if_2_button_false">Valige (+) või (-)</string>
+    <string name="res_date_interval">Kuupäeva intervall</string>
+    <string name="res_add_to_date">lisa kuupäevale (+)</string>
+    <string name="res_subtract_from_date">lahutage kuupäevast (-)</string>
+
+    <string name="res_ex_not_exist_date">Sisestasite vale kuupäeva</string>
+    <string name="res_ex_empty_date">Te pole kuupäeva sisestanud</string>
+    <string name="res_b_update">Värskenda</string>
+    <string name="res_b_updated">Uuendatud</string>
+
+
+</resources>

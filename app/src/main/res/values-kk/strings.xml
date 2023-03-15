@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Күн калькуляторы</string>
+    <string name="first_date">Бірінші күнді енгізіңіз</string>
+    <string name="button_name">Санау</string>
+    <string name="second_data">Екінші күнді енгізіңіз</string>
+    <string name="result">
+        Шегініс арқылы күндерді осы форматта енгізіңіз:\nкүн ай жыл
+        \Мысалы:\n31 12 2002\nНемесе уақытпен форматта:\n31 12 2002 12 30
+    </string>
+    <string name="restart">Тазалау</string>
+    <string name="sec">секунд</string>
+    <string name="min">минут</string>
+    <string name="hour">сағат</string>
+    <string name="day">күн</string>
+    <string name="week">апта</string>
+    <string name="month">ай</string>
+    <string name="year">жыл</string>
+    <string name="interval">Күндер арасындағы интервал:</string>
+    <string name="exceptionDate2Later">Екінші күн деректері біріншіден ертерек, әрекетті қайталаңыз.</string>
+    <string name="exceptionDatesEquals">Сіз енгізген күндер бірдей</string>
+    <string name="exceptionFormatData">Сіз күнді немесе уақытты қате пішімде енгіздіңіз!
+        \n\nНазар аударыңыз, егер сіз бір күнді күні мен уақытымен енгізсеңіз, екіншісін де дәл осылай енгізіңіз.
+        \nТағы да қайталап көріңіз.</string>
+    <string name="infoAboutDateTextView">Күн туралы ақпаратты алу:\nЕнгізіңіз: күн ай жыл
+        \nМысалы: 31 12 2022\n\nНемесе \"ағымдағы күнді\" пайдаланып, \"білу\" түймесін басуға болады</string>
+    <string name="get_info">Білу</string>
+
+    <string name="january">Қаңтар</string>
+    <string name="february">Ақпан</string>
+    <string name="march">Наурыз</string>
+    <string name="april">Сәуір</string>
+    <string name="may">Мамыр</string>
+    <string name="june">Маусым</string>
+    <string name="july">Шілде</string>
+    <string name="august">Тамыз</string>
+    <string name="september">Қыркүйек</string>
+    <string name="october">Қазан</string>
+    <string name="november">Қараша</string>
+    <string name="december">Желтоқсан</string>
+
+    <string name="sunday">Жексенбі</string>
+    <string name="monday">Дүйсенбі</string>
+    <string name="tuesday">Сейсенбі</string>
+    <string name="wednesday">Сәрсенбі</string>
+    <string name="thursday">Бейсенбі</string>
+    <string name="friday">Жұма</string>
+    <string name="saturday">Сенбі</string>
+
+    <string name="eto">Бұл</string>
+    <string name="denVgodu">жылдың күні</string>
+
+    <string name="get_date_information">Күні туралы ақпарат</string>
+    <string name="main_menu">Басты мәзір</string>
+
+    <string name="ex_info_data">Сіз күнді дұрыс емес форматта енгіздіңіз, қайталап көріңіз.</string>
+
+    <string name="leapYear1">Бұл кібісе жыл </string>
+    <string name="leapYear2">Барлық күндер</string>
+    <string name="godu">жыл</string>
+    <string name="notLeapYear1">Бұл секіріс жылы емес</string>
+    <string name="notLeapYear2">Барлық күндер</string>
+    <string name="b_cur_data">ағымдағы күні мен уақыты</string>
+    <string name="switch_button_on">ағымдағы күні мен уақыты (қосылған)</string>
+    <string name="switch_button_off">ағымдағы күн мен уақыт (өшірілген)</string>
+    <string name="b_cur_data_get_info">ағымдағы күн</string>
+    <string name="b_cur_data_on">ағымдағы күн (қосылған)</string>
+    <string name="b_cur_data_off">ағымдағы күн (өшірілген)</string>
+    <string name="b_holidays">Мерекелер</string>
+    <string name="b_new_year">Жаңа жыл</string>
+    <string name="b_rojdestvo">Рождество</string>
+    <string name="b_march8">8 Наурыз</string>
+    <string name="b_nauryz">Наурыз мейрамы</string>
+    <string name="b_den_zawitnika_ote4estva">Отан қорғаушылар күні</string>
+    <string name="b_den_pobedy">Жеңіс күні</string>
+    <string name="b_kazakhstan">Қазақстан</string>
+    <string name="russia">Ресей</string>
+    <string name="b_back_to_holidays_act">артқа</string>
+    <string name="edinstvo_naroda_kz">Қазақстан халқының бірлігі мерекесі</string>
+    <string name="den_stolicy">Астана күні</string>
+    <string name="kurban_ait">Құрбан Айт</string>
+    <string name="den_konstitucii">Қазақстан Республикасының Конституция Күні</string>
+    <string name="do_ng_ostalos">Жаңа жылға дейін қалды…</string>
+    <string name="ifNowNG">Жаңа жылыңызбен!)</string>
+    <string name="ifNowRojdestvo">Рождество Құтты Болсын!</string>
+    <string name="doRojdestvaOstalos">Рождествоға дейін қалды…</string>
+    <string name="den_nezavisimosti">Тәуелсіздік күні</string>
+    <string name="do_march8_ostalos">8 наурызға дейін қалды…</string>
+    <string name="ifNow8March">8 Наурызбен құттықтаймыз!</string>
+    <string name="do_nauryz_ostalos">Наурыз мерекесіне дейін қалды…</string>
+    <string name="ifNowNauryz">Наурыз мерекесімен құттықтаймыз!</string>
+    <string name="do_kurban_ait_ostalos">Құрбан Айт мерекесіне дейін қалды…</string>
+    <string name="ifNowKurbanAit">Құрбан Айт мерекесімен құттықтаймыз!</string>
+    <string name="do_den_edinst_naroda">Қазақстан халқының бірлігі күніне дейін қалды…</string>
+    <string name="ifNowDenEdinstvNar">Қазақстан халқының бірлігі күні мерекесімен құттықтаймыз!</string>
+    <string name="do_den_zawitnika_ot">Отан қорғаушылар күніне дейін қалды…</string>
+    <string name="ifNowDenZawitnikaOt">Отан Қорғаушылар Күнімен Құттықтаймыз!</string>
+    <string name="do_den_stolicy">Елорда күніне дейін қалды…</string>
+    <string name="ifNowDenStolicy">Астана Күнімен Құттықтаймыз!</string>
+    <string name="do_den_pobedy_ostalos">Жеңіс күніне дейін қалды…</string>
+    <string name="ifNowDenPobedy">Жеңіс Күнімен Құттықтаймыз!</string>
+    <string name="do_den_nezavisimosti">Тәуелсіздік күніне дейін қалды…</string>
+    <string name="ifNowDenNezavisimosti">Қазақстан Республикасының Тәуелсіздік күні құтты болсын!</string>
+    <string name="do_den_konstitucii">Конституция күніне дейін қалды…</string>
+    <string name="ifNowDenKonstitucii">Қазақстан Республикасының Конституция күнімен құттықтаймыз!</string>
+    <string name="budetDobavleno">Келесі жаңартуда қосылады</string>
+    <string name="res_den_narod_edinstva_ru">Халық бірлігі күніне дейін қалды…</string>
+    <string name="res_ifNowDenNarodEdinstva_ru">Халық Бірлігі Күнімен Құттықтаймын!</string>
+    <string name="res_do_den_rossii">Ресей күніне дейін қалды…</string>
+    <string name="res_if_now_den_rossii">Ресей Күнімен Құттықтаймыз!</string>
+    <string name="res_do_maslenicy">Масленицаға дейін қалды…</string>
+    <string name="res_if_now_maslenica">Масленицамен құттықтаймыз!</string>
+    <string name="res_do_pashi_ost">Пасха дейiн қалды…</string>
+    <string name="res_if_now_pasha">Пасхамен құттықтаймыз!</string>
+    <string name="res_do_prazd_vesny_i_truda_ost">Көктем мен еңбек мерекесіне дейін қалды…</string>
+    <string name="res_if_now_prazd_vesny_i_truda">Көктем мен еңбек мерекесімен құттықтаймыз!</string>
+    <string name="b_maslenica">Масленица</string>
+    <string name="b_pasha">Пасха</string>
+    <string name="b_prazd_vesny_i_truda">Көктем мен еңбек мерекесі</string>
+    <string name="b_den_rossii">Ресей Күні</string>
+    <string name="b_den_narod_edinstva">Халық бірлігі күні</string>
+    <string name="res_b_count_work_and_hol_days">Жұмыс және демалыс күндерін санау</string>
+    <string name="res_textView_pods4et_rab_i_vyh_dney">\nЖұмыс және демалыс күндерін санау
+    Жұмыс күндерін таңдаңыз.</string>
+    <string name="working_days">Жұмыс күндері</string>
+    <string name="hol_days">Демалыс күндері</string>
+    <string name="day_month_year">күн ай жыл</string>
+    <string name="exception_format_data_for_calc_workig_days">
+        Сіз күнді дұрыс емес форматта енгіздіңіз\nАлдымен теріп көріңіз\nКүн Ай Жыл кеңістік арқылы
+        \nМысалы: 12 05 2020
+    </string>
+    <string name="res_b_counting_time">Уақытты есептеу</string>
+    <string name="res_edit_year">жыл</string>
+    <string name="res_edit_month">ай</string>
+    <string name="res_edit_weeks">апта</string>
+    <string name="res_edit_days">күн</string>
+    <string name="res_edit_hour">сағат</string>
+    <string name="res_edit_min">минут</string>
+    <string name="res_edit_sec">секундтар</string>
+    <string name="res_enter_date">Күнді енгізіңіз</string>
+
+    <string name="exception_format_data_for_counting_date">
+        Сіз күнді дұрыс емес форматта енгіздіңіз\nАлдымен теріп көріңіз\nКүн Ай Жыл кеңістік арқылы
+        \nМысалы: 12 05 2020
+        \nнемесе уақыт бойынша форматта
+        \n12 05 2020 12 30
+    </string>
+
+    <string name="info1_for_counting_date">Нәтижесі:</string>
+    <string name="info2_for_counting_date">Жаңа күн - </string>
+    <string name="info3_for_counting_date">Жаңа уақыт - </string>
+    <string name="info4_for_counting_date">Аптаның күні - </string>
+
+    <string name="res_b_plus">Күнге қосу (қосылған)</string>
+    <string name="res_b_minus">Күннен шегеру (қосылған)</string>
+    <string name="res_textview_counting_date">Уақытты есептеу.\nЕнгізіңіз: күн ай жыл\nМысалы: 12 12 2020 \nНемесе уақыт бойынша форматта\n12 12 2020 13 00</string>
+    <string name="res_b_plus2">Күнге қосу (өшірілген)</string>
+    <string name="res_b_minus2">Күннен шегеру (өшірілген)</string>
+
+    <string name="res_if_2_button_true">Бір мезгілде (+) және (-) таңдауға болмайды</string>
+    <string name="res_if_2_button_false">(+) Немесе (-) таңдаңыз</string>
+    <string name="res_date_interval">Күндер аралығы</string>
+    <string name="res_add_to_date">күнге қосу (+)</string>
+    <string name="res_subtract_from_date">күннен шегеру (-)</string>
+
+    <string name="res_ex_not_exist_date">Сіз жоқ күнді енгіздіңіз</string>
+    <string name="res_ex_empty_date">Сіз күнді енгізген жоқсыз</string>
+    <string name="res_b_update">Жаңарту</string>
+    <string name="res_b_updated">Жаңартылған</string>
+
+
+</resources>

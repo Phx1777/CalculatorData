@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Calculateur de date</string>
+    <string name="first_date">Entrez la première date</string>
+    <string name="button_name">Calculer</string>
+    <string name="second_data">Entrez la deuxième date</string>
+    <string name="result">
+        Saisissez les dates au format suivant, séparées par un espace:\njour mois année
+        \nExemple:\n31 12 2002\nOu dans le format avec le temps:\n31 12 2002 12 30
+    </string>
+    <string name="restart">Clair</string>
+    <string name="sec">seconde</string>
+    <string name="min">min</string>
+    <string name="hour">heure</string>
+    <string name="day">jour</string>
+    <string name="week">semaine</string>
+    <string name="month">mois</string>
+    <string name="year">année</string>
+    <string name="interval">L\'intervalle entre les dates est:</string>
+    <string name="exceptionDate2Later">Les données de la deuxième date sont antérieures à la première, veuillez réessayer.</string>
+    <string name="exceptionDatesEquals">Les dates que vous avez entrées sont les mêmes</string>
+    <string name="exceptionFormatData">Vous avez entré la date ou l\'heure dans le mauvais format!
+        \n\nAttention, si vous avez saisi une date avec la date et l\'heure, alors saisissez la seconde de la même manière.
+        \nVeuillez réessayer.</string>
+    <string name="infoAboutDateTextView">Obtenir des informations sur les dates\nEntrer: jour mois année
+        \nExemple: 31 12 2022\n\nOu vous pouvez utiliser \"date actuelle\" et cliquez \"obtenir des informations\"</string>
+    <string name="get_info">obtenir des informations</string>
+
+    <string name="january">Janvier</string>
+    <string name="february">Février</string>
+    <string name="march">Mars</string>
+    <string name="april">Avril</string>
+    <string name="may">Peut</string>
+    <string name="june">Juin</string>
+    <string name="july">Juillet</string>
+    <string name="august">Août</string>
+    <string name="september">Septembre</string>
+    <string name="october">Octobre</string>
+    <string name="november">Novembre</string>
+    <string name="december">Décembre</string>
+
+    <string name="sunday">Dimanche</string>
+    <string name="monday">Lundi</string>
+    <string name="tuesday">Mardi</string>
+    <string name="wednesday">Mercredi</string>
+    <string name="thursday">Jeudi</string>
+    <string name="friday">Vendredi</string>
+    <string name="saturday">Samedi</string>
+
+    <string name="eto">c\'est</string>
+    <string name="denVgodu">jours par an</string>
+    <string name="get_date_information">Informations sur les dates</string>
+
+    <string name="main_menu">menu principal</string>
+
+    <string name="ex_info_data">Vous avez entré la date dans le mauvais format, veuillez réessayer.</string>
+
+
+    <string name="leapYear1">C\'est une année bissextile</string>
+    <string name="leapYear2">nombre total de jours dans</string>
+    <string name="godu">année</string>
+    <string name="notLeapYear1">Ce n\'est pas une année bissextile</string>
+    <string name="notLeapYear2">nombre total de jours dans</string>
+    <string name="b_cur_data">date et heure actuelles</string>
+    <string name="switch_button_on">date et heure actuelles (ON)</string>
+    <string name="switch_button_off">date et heure actuelles (OFF)</string>
+
+    <string name="b_cur_data_get_info">date actuelle</string>
+    <string name="b_cur_data_on">date actuelle (ON)</string>
+    <string name="b_cur_data_off">date actuelle (OFF)</string>
+    <string name="b_holidays">Vacances</string>
+    <string name="b_new_year">Nouvelle année</string>
+    <string name="b_rojdestvo">Noël</string>
+    <string name="b_march8">8 Mars</string>
+    <string name="b_nauryz">Nauryz meiramy</string>
+    <string name="b_den_zawitnika_ote4estva">Journée du défenseur de la patrie</string>
+    <string name="b_den_pobedy">Jour de la victoire</string>
+    <string name="b_kazakhstan">Kazakhstan</string>
+    <string name="russia">Russie</string>
+    <string name="b_back_to_holidays_act">dos</string>
+    <string name="edinstvo_naroda_kz">Fête de l\'unité du peuple du Kazakhstan</string>
+    <string name="den_stolicy">Jour de la capitale</string>
+    <string name="kurban_ait">Kurban Ait</string>
+    <string name="den_konstitucii">Jour de la Constitution de la République du Kazakhstan</string>
+    <string name="do_ng_ostalos">Jusqu\'au nouvel an…</string>
+    <string name="ifNowNG">Bonne année!)</string>
+    <string name="ifNowRojdestvo">Joyeux noël!</string>
+    <string name="doRojdestvaOstalos">Jusqu\'à Noël…</string>
+    <string name="den_nezavisimosti">Jour de l\'indépendance</string>
+    <string name="do_march8_ostalos">8 Mars gauche…</string>
+    <string name="ifNow8March">Félicitations le 8 Mars!</string>
+    <string name="do_nauryz_ostalos">Jusqu\'au départ de Nauryz…</string>
+    <string name="ifNowNauryz">Félicitations pour les vacances de Nauryz!</string>
+    <string name="do_kurban_ait_ostalos">Jusqu\'au départ de Kurban Ait…</string>
+    <string name="ifNowKurbanAit">Félicitations pour les vacances de Kurban Ait!</string>
+    <string name="do_den_edinst_naroda">Jusqu\'au jour de l\'unité du peuple du Kazakhstan à gauche…</string>
+    <string name="ifNowDenEdinstvNar">Félicitations pour le jour de l\'unité du peuple du Kazakhstan!</string>
+    <string name="do_den_zawitnika_ot">Jusqu\'au jour où le défenseur de la patrie est parti…</string>
+    <string name="ifNowDenZawitnikaOt">Félicitations pour la Journée du Défenseur de la Patrie!</string>
+    <string name="do_den_stolicy">Jusqu\'au jour où la capitale est partie…</string>
+    <string name="ifNowDenStolicy">Félicitations pour la Journée de la Capitale!</string>
+    <string name="do_den_pobedy_ostalos">Gauche jusqu\'au Jour de la Victoire…</string>
+    <string name="ifNowDenPobedy">Félicitations pour le Jour de la Victoire!</string>
+    <string name="do_den_nezavisimosti">Jusqu\'à ce que le Jour de l\'Indépendance soit parti…</string>
+    <string name="ifNowDenNezavisimosti">Félicitations pour le Jour de l\'Indépendance de la République du Kazakhstan!</string>
+    <string name="do_den_konstitucii">Jusqu\'à ce que le jour de la Constitution soit parti…</string>
+    <string name="ifNowDenKonstitucii">Félicitations pour le Jour de la Constitution de la République du Kazakhstan!</string>
+    <string name="budetDobavleno">Sera ajouté dans la prochaine mise à jour</string>
+    <string name="res_den_narod_edinstva_ru">Jusqu\'au jour de l\'Unité Nationale…</string>
+    <string name="res_ifNowDenNarodEdinstva_ru">Félicitations pour la Journée de l\'unité nationale!</string>
+    <string name="res_do_den_rossii">Jusqu\'à ce que le Jour de la Russie soit parti…</string>
+    <string name="res_if_now_den_rossii">Félicitations pour la journée de la Russie!</string>
+    <string name="res_do_maslenicy">Jusqu\'au départ de Maslenitsa…</string>
+    <string name="res_if_now_maslenica">Félicitations pour Maslenitsa!</string>
+    <string name="res_do_pashi_ost">Jusqu\'à ce que Pâques soit parti…</string>
+    <string name="res_if_now_pasha">Félicitations pour Pâques!</string>
+    <string name="res_do_prazd_vesny_i_truda_ost">Jusqu\'à ce que les vacances du printemps et du travail soient parties…</string>
+    <string name="res_if_now_prazd_vesny_i_truda">Félicitations pour la fête du printemps et du travail!</string>
+    <string name="b_maslenica">Maslenitsa</string>
+    <string name="b_pasha">Pâques</string>
+    <string name="b_prazd_vesny_i_truda">Printemps et fête du travail</string>
+    <string name="b_den_rossii">Journée de la Russie</string>
+    <string name="b_den_narod_edinstva">Journée de l\'unité nationale</string>
+    <string name="res_b_count_work_and_hol_days">Compter les jours ouvrés et les jours chômés</string>
+    <string name="res_textView_pods4et_rab_i_vyh_dney">\nCompter les jours ouvrables et les week-ends\nChoisissez des jours ouvrables.</string>
+    <string name="working_days">Jours de travail</string>
+    <string name="hol_days">Jours de week-end</string>
+    <string name="day_month_year">jour mois année</string>
+    <string name="exception_format_data_for_calc_workig_days">
+        Vous avez entré la date dans le mauvais format\nEssayez d\'entrer le premier
+        \nJour Mois Année séparé par un espace
+        \nPar exemple: 12 05 2020
+    </string>
+    <string name="res_b_counting_time">Temps de comptage</string>
+
+    <string name="res_edit_year">année</string>
+    <string name="res_edit_month">mois</string>
+    <string name="res_edit_weeks">semaines</string>
+    <string name="res_edit_days">jours</string>
+    <string name="res_edit_hour">heure</string>
+    <string name="res_edit_min">minutes</string>
+    <string name="res_edit_sec">seconds</string>
+    <string name="res_enter_date">Entrez la date</string>
+
+    <string name="exception_format_data_for_counting_date">
+        Vous avez entré la date dans le mauvais format\nEssayez d\entrer le premier\njour mois année séparés par un espace
+        \nPar exemple: 12 05 2020
+        \nou saisir le format avec l\'heure
+        \n12 05 2020 12 30
+    </string>
+
+    <string name="info1_for_counting_date">Résultat: </string>
+    <string name="info2_for_counting_date">Nouvelle date - </string>
+    <string name="info3_for_counting_date">Nouvelle heure - </string>
+    <string name="info4_for_counting_date">Jour de la semaine - </string>
+
+    <string name="res_b_plus">Ajouter à ce jour (ON)</string>
+    <string name="res_b_minus">Soustraire de la date (ON)</string>
+    <string name="res_textview_counting_date">Calcul des dates.\nEntrez jour mois année\nPar exemple: 12 12 2020 \nOu dans le format avec le temps\n12 12 2020 13 00</string>
+    <string name="res_b_plus2">Ajouter à la date (OFF)</string>
+    <string name="res_b_minus2">Soustraire de la date (OFF)</string>
+
+    <string name="res_if_2_button_true">Vous ne pouvez pas choisir (+) et (-) en même temps</string>
+    <string name="res_if_2_button_false">Sélectionnez (+) ou (-)</string>
+    <string name="res_date_interval">Intervalle de dates</string>
+    <string name="res_add_to_date">ajouter à la date (+)</string>
+    <string name="res_subtract_from_date">soustraire de la date (-)</string>
+
+    <string name="res_ex_not_exist_date">Vous avez saisi une date inexistante</string>
+    <string name="res_ex_empty_date">Vous n\'avez pas saisi la date</string>
+    <string name="res_b_update">Actualiser</string>
+    <string name="res_b_updated">Mis à jour</string>
+
+
+</resources>

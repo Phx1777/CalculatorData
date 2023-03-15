@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Tarih hesaplayıcı</string>
+    <string name="first_date">İlk tarihi girin</string>
+    <string name="button_name">Saymak</string>
+    <string name="second_data">İkinci tarihi girin</string>
+    <string name="result">
+        Tarihleri bu biçimde boşlukla girin:\ngün ay yıl
+        \nÖrnek:\n31 12 2002\nveya zamana sahip bir formatta:\n31 12 2002 12 30
+    </string>
+    <string name="restart">Temizlemek</string>
+    <string name="sec">saniye</string>
+    <string name="min">dakikaların</string>
+    <string name="hour">saat</string>
+    <string name="day">günler</string>
+    <string name="week">haftalar</string>
+    <string name="month">ay</string>
+    <string name="year">yıl</string>
+    <string name="interval">Tarihler arasındaki aralık:</string>
+    <string name="exceptionDate2Later">İkinci tarih verileri birinciden daha eski, tekrar deneyin.</string>
+    <string name="exceptionDatesEquals">Girdiğiniz tarihler aynı</string>
+    <string name="exceptionFormatData">Tarih veya saati yanlış biçimde girdiniz!
+        \n\nDikkat, tarih ve saat ile bir tarih girdiyseniz, ikincisini de aynı şekilde girin.
+        \nTekrar deneyin.</string>
+    <string name="infoAboutDateTextView">Bir tarih hakkında bilgi bulun:\nGirmek: gün ay yıl
+        \nÖrnek: 31 12 2022\n\nVeya kullanabilirsiniz \"geçerli tarih\" ve\"bilmek\" düğmesini tıklayın</string>
+    <string name="get_info">bilmek</string>
+
+    <string name="january">Ocak</string>
+    <string name="february">Şubat</string>
+    <string name="march">Mart</string>
+    <string name="april">Nisan</string>
+    <string name="may">Mayıs</string>
+    <string name="june">Haziran</string>
+    <string name="july">Temmuz</string>
+    <string name="august">Ağustos</string>
+    <string name="september">Eylül</string>
+    <string name="october">Ekim</string>
+    <string name="november">Kasım</string>
+    <string name="december">Aralık</string>
+
+    <string name="sunday">Pazar</string>
+    <string name="monday">Pazartesi</string>
+    <string name="tuesday">Salı</string>
+    <string name="wednesday">Çarşamba</string>
+    <string name="thursday">Perşembe</string>
+    <string name="friday">Cuma</string>
+    <string name="saturday">Cumartesi</string>
+
+    <string name="eto">Bu</string>
+    <string name="denVgodu">yılın günü</string>
+
+    <string name="get_date_information">Tarih Bilgileri</string>
+    <string name="main_menu">Ana menü</string>
+
+    <string name="ex_info_data">Tarihi yanlış biçimde girdiniz, lütfen tekrar deneyin.</string>
+
+    <string name="leapYear1">Bu bir artık yıl </string>
+    <string name="leapYear2">toplam gün sayısı</string>
+    <string name="godu">yıl</string>
+    <string name="notLeapYear1">Bu artık bir yıl değil</string>
+    <string name="notLeapYear2">toplam gün sayısı</string>
+    <string name="b_cur_data">geçerli tarih ve saat</string>
+    <string name="switch_button_on">geçerli tarih ve saat (dahil)</string>
+    <string name="switch_button_off">geçerli tarih ve saat (devre dışı)</string>
+    <string name="b_cur_data_get_info">Geçerli tarih</string>
+    <string name="b_cur_data_on">geçerli tarih (dahil)</string>
+    <string name="b_cur_data_off">geçerli tarih (devre dışı)</string>
+    <string name="b_holidays">Bayram</string>
+    <string name="b_new_year">Yılbaşı</string>
+    <string name="b_rojdestvo">Noel</string>
+    <string name="b_march8">8 Mart</string>
+    <string name="b_nauryz">Nevruz tatili</string>
+    <string name="b_den_zawitnika_ote4estva">Anavatan Günü Savunucusu</string>
+    <string name="b_den_pobedy">Zafer günü</string>
+    <string name="b_kazakhstan">Kazakistan</string>
+    <string name="russia">Rusya</string>
+    <string name="b_back_to_holidays_act">geri</string>
+    <string name="edinstvo_naroda_kz">Kazakistan halkının birlik bayramı</string>
+    <string name="den_stolicy">Başkent Günü</string>
+    <string name="kurban_ait">Kurban ayit</string>
+    <string name="den_konstitucii">Kazakistan Cumhuriyeti Anayasa Günü</string>
+    <string name="do_ng_ostalos">Yeni yıl kalana kadar…</string>
+    <string name="ifNowNG">Yeni yılınız kutlu olsun!</string>
+    <string name="ifNowRojdestvo">Mutlu Noeller!</string>
+    <string name="doRojdestvaOstalos">Noel\'e kadar kaldı…</string>
+    <string name="den_nezavisimosti">Bağımsızlık Günü</string>
+    <string name="do_march8_ostalos">8 Mart\'a kadar kaldı…</string>
+    <string name="ifNow8March">8 Mart\'tan itibaren!</string>
+    <string name="do_nauryz_ostalos">Nauryz\'e kadar kaldı…</string>
+    <string name="ifNowNauryz">Nauryz tatiliniz için tebrikler!</string>
+    <string name="do_kurban_ait_ostalos">Kurban Ayt\'a kadar kaldı…</string>
+    <string name="ifNowKurbanAit">Kurban Bayramınız için tebrikler!</string>
+    <string name="do_den_edinst_naroda">Kazakistan halkının birlik gününe kadar kalanlar…</string>
+    <string name="ifNowDenEdinstvNar">Kazakistan\'ın halkının birlik Günü\'nü kutladığınız için tebrikler!</string>
+    <string name="do_den_zawitnika_ot">Anavatanın savunucusu gününe kadar kaldı…</string>
+    <string name="ifNowDenZawitnikaOt">Anavatan Savunucusu Gününüz kutlu olsun!</string>
+    <string name="do_den_stolicy">Başkent gününe kadar kaldı…</string>
+    <string name="ifNowDenStolicy">Başkentin Gününüz Kutlu olsun!</string>
+    <string name="do_den_pobedy_ostalos">Zafer Günü\'ne kadar geriye kalanlar…</string>
+    <string name="ifNowDenPobedy">Zafer Gününüz Kutlu olsun!</string>
+    <string name="do_den_nezavisimosti">Bağımsızlık Gününe kadar kalanlar…</string>
+
+
+    <string name="ifNowDenNezavisimosti">Kazakistan Cumhuriyeti\'nin Bağımsızlık Günü için tebrikler!</string>
+    <string name="do_den_konstitucii">Anayasa günü kalana kadar…</string>
+    <string name="ifNowDenKonstitucii">Kazakistan Cumhuriyeti Anayasa Günü için tebrikler!</string>
+    <string name="budetDobavleno">Bir sonraki güncellemede eklenecektir</string>
+    <string name="res_den_narod_edinstva_ru">Ta ki Milli Birlik gününe kadar…</string>
+    <string name="res_ifNowDenNarodEdinstva_ru">Ulusal Birlik Günü için tebrikler!</string>
+    <string name="res_do_den_rossii">Rusya\'nın Gününe kadar kaldı…</string>
+    <string name="res_if_now_den_rossii">Rusya Günü için tebrikler!</string>
+    <string name="res_do_maslenicy">Shrovetide gidene kadar…</string>
+    <string name="res_if_now_maslenica">Maslenitsa\'yı tebrik ediyoruz!</string>
+    <string name="res_do_pashi_ost">Paskalyaya kadar kaldı…</string>
+    <string name="res_if_now_pasha">Mutlu Paskalyalar!</string>
+    <string name="res_do_prazd_vesny_i_truda_ost">Bahar ve İşçi Bayramı tatiline kadar…</string>
+    <string name="res_if_now_prazd_vesny_i_truda">Bahar ve İşçi Bayramı için tebrikler!</string>
+    <string name="b_maslenica">Maslenitsa</string>
+    <string name="b_pasha">Paskalya</string>
+    <string name="b_prazd_vesny_i_truda">İlkbahar ve Emek Festivali</string>
+    <string name="b_den_rossii">Rusya Günü</string>
+    <string name="b_den_narod_edinstva">Ulusal Birlik Günü</string>
+    <string name="res_b_count_work_and_hol_days">Çalışma günlerini ve izin günlerini sayma</string>
+    <string name="res_textView_pods4et_rab_i_vyh_dney">\nÇalışma günlerini ve izin günlerini sayma
+    Çalışma günlerini seçin.</string>
+    <string name="working_days">İş günleri</string>
+    <string name="hol_days">Izin günleri</string>
+    <string name="day_month_year">gün ay yıl</string>
+    <string name="exception_format_data_for_calc_workig_days">
+        Tarihi yanlış biçimde girdiniz\nÖnce yazmayı dene \nGün Ay Yıl bir boşluk aracılığıyla
+        \nÖrneğin: 12 05 2020
+    </string>
+    <string name="res_b_counting_time">Zaman Sayma</string>
+    <string name="res_edit_year">yıl</string>
+    <string name="res_edit_month">aylar</string>
+    <string name="res_edit_weeks">haftalar</string>
+    <string name="res_edit_days">günler</string>
+    <string name="res_edit_hour">saat</string>
+    <string name="res_edit_min">dakika</string>
+    <string name="res_edit_sec">saniye</string>
+    <string name="res_enter_date">Tarihi girin</string>
+
+    <string name="exception_format_data_for_counting_date">
+        Tarihi yanlış biçimlerde girdiniz \nÖnce yazmayı dene \nGün Ay Yıl bir boşluk aracılığıyla
+        \nÖrneğin: 12 05 2020
+        \nveya zamana sahip bir formatta
+        \n12 05 2020 12 30
+    </string>
+
+    <string name="info1_for_counting_date">Sonuç:</string>
+    <string name="info2_for_counting_date">Yeni tarih - </string>
+    <string name="info3_for_counting_date">Yeni zaman - </string>
+    <string name="info4_for_counting_date">Haftanın Günü - </string>
+
+    <string name="res_b_plus">Tarihe ekle (AÇIK)</string>
+    <string name="res_b_minus">Tarihten çıkar (AÇIK)</string>
+    <string name="res_textview_counting_date">Tarih hesaplama.\nGün ay yıl girin\nÖrneğin: 12 12 2020 \nVeya saat biçiminde\n12 12 2020 13 00</string>
+    <string name="res_b_plus2">Tarihe ekle (kapalı)</string>
+    <string name="res_b_minus2">Tarihten çıkar (kapalı)</string>
+
+    <string name="res_if_2_button_true">(+) ve (-) aynı anda seçilemez</string>
+    <string name="res_if_2_button_false">(+) veya (-) seçin</string>
+    <string name="res_date_interval">Tarih aralığı</string>
+    <string name="res_add_to_date">tarihe ekle (+)</string>
+    <string name="res_subtract_from_date">tarihten çıkar (-)</string>
+
+    <string name="res_ex_not_exist_date">Geçersiz bir tarih girdiniz</string>
+    <string name="res_ex_empty_date">tarih girmediniz</string>
+    <string name="res_b_update">Yenile</string>
+    <string name="res_b_updated">Güncellenmiş</string>
+
+
+</resources>

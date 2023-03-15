@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#07354A"
+    android:onClick="onClick"
+    android:orientation="vertical"
+    tools:context=".Interval_date">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#07354A"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:paddingTop="10dp"
+                >
+
+                <EditText
+                    android:id="@+id/input_data1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:background="@color/material_dynamic_neutral90"
+                    android:hint="@string/first_date"
+                    android:inputType="text"
+                    android:padding="17dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="23sp"
+                    />
+
+                <Switch
+                    android:id="@+id/b_switch_current_data1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/material_dynamic_neutral90"
+                    android:checked="false"
+                    android:text="@string/b_cur_data"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    tools:ignore="UseSwitchCompatOrMaterialXml"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textAlignment="center"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                >
+
+                <EditText
+                    android:id="@+id/input_data2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:background="@color/material_dynamic_neutral90"
+                    android:hint="@string/second_data"
+                    android:inputType="text"
+                    android:padding="17dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="23sp" />
+
+                <Switch
+                    android:id="@+id/b_switch_current_data2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/material_dynamic_neutral90"
+                    android:checked="false"
+                    android:text="@string/b_cur_data"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    tools:ignore="UseSwitchCompatOrMaterialXml"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textAlignment="center"
+                    />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_do_calc_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+
+                android:text="@string/button_name"
+                android:textSize="25sp"
+
+                app:cornerRadius="30dp"
+                android:drawableLeft="@drawable/icons8_calculate_35"
+                />
+
+
+            <Button
+                android:id="@+id/clear_button_interval_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#7C8183"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+
+                android:insetBottom="10dp"
+                android:text="@string/restart"
+                android:textColor="@color/white"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+                android:drawableLeft="@drawable/icons8_trash_35"
+
+                />
+
+            <Button
+                android:id="@+id/b_to_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#1AB515"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+
+                android:insetBottom="10dp"
+                android:onClick="onClick"
+
+                android:text="@string/main_menu"
+                android:textColor="@color/white"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+                android:drawableLeft="@drawable/icons8_home_page_35"
+
+                />
+
+
+                <TextView
+                    android:id="@+id/data_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#07354A"
+                    android:text="@string/result"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

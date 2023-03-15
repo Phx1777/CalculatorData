@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Date calculator</string>
+    <string name="first_date">Enter first date</string>
+    <string name="button_name">Calculate</string>
+    <string name="second_data">Enter second date</string>
+    <string name="result">
+        Enter dates in this format separated by a space:\nday month year
+        \nExample:\n31 12 2002\nOr in the format with time:\n31 12 2002 12 30
+    </string>
+    <string name="restart">Clear</string>
+    <string name="sec">sec</string>
+    <string name="min">min</string>
+    <string name="hour">hour</string>
+    <string name="day">day</string>
+    <string name="week">week</string>
+    <string name="month">month</string>
+    <string name="year">year</string>
+    <string name="interval">The interval between dates is:</string>
+    <string name="exceptionDate2Later">The data of the second date is earlier than the first, please try again.</string>
+    <string name="exceptionDatesEquals">The dates you entered are the same</string>
+    <string name="exceptionFormatData">You entered the date or time in the wrong format!
+        \n\nAttention, if you entered one date with the date and time, then enter the second one in the same way.
+        \nPlease try again.</string>
+    <string name="infoAboutDateTextView">Get date information\nEnter: day month year
+        \nExample: 31 12 2022\n\nOr you can use \"current date\" and click \"get info\"</string>
+    <string name="get_info">get info</string>
+
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+
+    <string name="eto">it\'s</string>
+    <string name="denVgodu">days a year</string>
+    <string name="get_date_information">Date information</string>
+
+    <string name="main_menu">main menu</string>
+
+    <string name="ex_info_data">You entered the date in the wrong format, please try again.</string>
+
+
+    <string name="leapYear1">It\'s a leap year</string>
+    <string name="leapYear2">total days in</string>
+    <string name="godu"></string>
+    <string name="notLeapYear1">It\'s not a leap year</string>
+    <string name="notLeapYear2">total days in</string>
+    <string name="b_cur_data">current date &amp; time</string>
+    <string name="switch_button_on">current date and time (ON)</string>
+    <string name="switch_button_off">current date and time (OFF)</string>
+
+    <string name="b_cur_data_get_info">current date</string>
+    <string name="b_cur_data_on">current date (ON)</string>
+    <string name="b_cur_data_off">current date (OFF)</string>
+    <string name="b_holidays">Holidays</string>
+    <string name="b_new_year">New Year</string>
+    <string name="b_rojdestvo">Christmas</string>
+    <string name="b_march8">March 8</string>
+    <string name="b_nauryz">Nauryz meiramy</string>
+    <string name="b_den_zawitnika_ote4estva">Defender of the Fatherland Day</string>
+    <string name="b_den_pobedy">Victory Day</string>
+    <string name="b_kazakhstan">Kazakhstan</string>
+    <string name="russia">Russia</string>
+    <string name="b_back_to_holidays_act">back</string>
+    <string name="edinstvo_naroda_kz">Holiday of unity of the people of Kazakhstan</string>
+    <string name="den_stolicy">Capital Day</string>
+    <string name="kurban_ait">Kurban Ait</string>
+    <string name="den_konstitucii">Constitution Day of the Republic of Kazakhstan</string>
+    <string name="do_ng_ostalos">Until the New Year…</string>
+    <string name="ifNowNG">Happy New Year!)</string>
+    <string name="ifNowRojdestvo">Merry Christmas!</string>
+    <string name="doRojdestvaOstalos">Until Christmas…</string>
+    <string name="den_nezavisimosti">Independence Day</string>
+    <string name="do_march8_ostalos">March 8th left…</string>
+    <string name="ifNow8March">Congratulations on March 8!</string>
+    <string name="do_nauryz_ostalos">Until Nauryz left…</string>
+    <string name="ifNowNauryz">Congratulations on Nauryz holiday!</string>
+    <string name="do_kurban_ait_ostalos">Until Kurban Ait left…</string>
+    <string name="ifNowKurbanAit">Congratulations on the holiday of Kurban Ait!</string>
+    <string name="do_den_edinst_naroda">Until the day of unity of the people of Kazakhstan left…</string>
+    <string name="ifNowDenEdinstvNar">Congratulations on the day of unity of the people of Kazakhstan!</string>
+    <string name="do_den_zawitnika_ot">Until the day of the defender of the fatherland left…</string>
+    <string name="ifNowDenZawitnikaOt">Congratulations on Defender of the Fatherland Day!</string>
+    <string name="do_den_stolicy">Until the day of the capital left…</string>
+    <string name="ifNowDenStolicy">Congratulations on the Capital Day!</string>
+    <string name="do_den_pobedy_ostalos">Left until Victory Day…</string>
+    <string name="ifNowDenPobedy">Congratulations on Victory Day!</string>
+    <string name="do_den_nezavisimosti">Until Independence Day left…</string>
+    <string name="ifNowDenNezavisimosti">Congratulations on the Independence Day of the Republic of Kazakhstan!</string>
+    <string name="do_den_konstitucii">Until Constitution Day left…</string>
+    <string name="ifNowDenKonstitucii">Congratulations on the Constitution Day of the Republic of Kazakhstan!</string>
+    <string name="budetDobavleno">Will be added in the next update</string>
+    <string name="res_den_narod_edinstva_ru">Until the day of National Unity left…</string>
+    <string name="res_ifNowDenNarodEdinstva_ru">Congratulations on the National Unity Day!</string>
+    <string name="res_do_den_rossii">Until the Day of Russia left…</string>
+    <string name="res_if_now_den_rossii">Congratulations On Russia Day!</string>
+    <string name="res_do_maslenicy">Until Maslenitsa left…</string>
+    <string name="res_if_now_maslenica">Congratulations on Maslenitsa!</string>
+    <string name="res_do_pashi_ost">Until Easter left…</string>
+    <string name="res_if_now_pasha">Congratulations on Easter!</string>
+    <string name="res_do_prazd_vesny_i_truda_ost">Until the Holiday of Spring and Labor left…</string>
+    <string name="res_if_now_prazd_vesny_i_truda">Congratulations on the Holiday of Spring and Labor!)</string>
+    <string name="b_maslenica">Maslenitsa</string>
+    <string name="b_pasha">Easter</string>
+    <string name="b_prazd_vesny_i_truda">Spring and Labour Day</string>
+    <string name="b_den_rossii">Russia Day</string>
+    <string name="b_den_narod_edinstva">National Unity Day</string>
+    <string name="res_b_count_work_and_hol_days">Counting working days and days off</string>
+    <string name="res_textView_pods4et_rab_i_vyh_dney">\nCounting working and weekends days\nChoose working days.</string>
+    <string name="working_days">Working days</string>
+    <string name="hol_days">Weekend days</string>
+    <string name="day_month_year">day month year</string>
+    <string name="exception_format_data_for_calc_workig_days">
+        You entered the date in the wrong format\nTry entering the first
+        \nDay Month Year separated by a space
+        \nFor example: 12 05 2020
+    </string>
+    <string name="res_b_counting_time">Counting time</string>
+
+    <string name="res_edit_year">year</string>
+    <string name="res_edit_month">months</string>
+    <string name="res_edit_weeks">weeks</string>
+    <string name="res_edit_days">days</string>
+    <string name="res_edit_hour">hour</string>
+    <string name="res_edit_min">minutes</string>
+    <string name="res_edit_sec">seconds</string>
+    <string name="res_enter_date">Enter date</string>
+
+    <string name="exception_format_data_for_counting_date">
+        You entered the date in the wrong format\nTry entering the first\nday month year separated by a space
+        \nfor example: 12 05 2020
+        \nor enter in format with time
+        \n12 05 2020 12 30
+    </string>
+
+    <string name="info1_for_counting_date">Result:</string>
+    <string name="info2_for_counting_date">New date - </string>
+    <string name="info3_for_counting_date">New time - </string>
+    <string name="info4_for_counting_date">Day of the week - </string>
+
+    <string name="res_b_plus">Add to date (ON)</string>
+    <string name="res_b_minus">Subtract from date (ON)</string>
+    <string name="res_textview_counting_date">Date calculation.\nEnter day month year\nFor example: 12 12 2020 \nOr in the format with time\n12 12 2020 13 00</string>
+    <string name="res_b_plus2">Add to date (OFF)</string>
+    <string name="res_b_minus2">Subtract from date (OFF)</string>
+
+    <string name="res_if_2_button_true">You can\'t choose (+) and (-) at the same time</string>
+    <string name="res_if_2_button_false">Select (+) or (-)</string>
+    <string name="res_date_interval">Date interval</string>
+    <string name="res_add_to_date">add to date (+)</string>
+    <string name="res_subtract_from_date">subtract from date (-)</string>
+
+    <string name="res_ex_not_exist_date">You have entered a non-existent date</string>
+    <string name="res_ex_empty_date">You have not entered the date</string>
+    <string name="res_b_update">Update</string>
+    <string name="res_b_updated">Updated</string>
+
+
+</resources>
