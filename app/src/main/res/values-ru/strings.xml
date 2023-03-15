@@ -1,14 +1,13 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Калькулятор даты</string>
+<resources>
+    <string name="app_name">Калькулятор дат</string>
     <string name="first_date">Введите первую дату</string>
     <string name="button_name">Подсчитать</string>
     <string name="second_data">Введите вторую дату</string>
     <string name="result">
-        Введите даты в таком формате через пробел:\nдень месяц год часы минуты
-        \nПример:\n30 5 2020\nЛибо в формате со временем:\n30 5 2020 12 30
+        Введите даты в таком формате через пробел:\nдень месяц год
+        \nПример:\n31 12 2002\nЛибо в формате со временем:\n31 12 2002 12 30
     </string>
     <string name="restart">Очистить</string>
-    <string name="goodbye">Пока)</string>
     <string name="sec">секунд</string>
     <string name="min">минут</string>
     <string name="hour">час</string>
@@ -17,14 +16,13 @@
     <string name="month">месяц</string>
     <string name="year">год</string>
     <string name="interval">Интервал между датами составляет:</string>
-    <string name="exceptionDate2Later">Данные второй даты позднее первой, попробуйте снова.</string>
+    <string name="exceptionDate2Later">Данные второй даты раньше первой, попробуйте снова.</string>
     <string name="exceptionDatesEquals">Введенные вами даты одинаковы</string>
     <string name="exceptionFormatData">Вы ввели дату или время в неверном формате!
-        \nВнимание, если Вы ввели одну дату с датой и временем то введите вторую так же.
+        \n\nВнимание, если Вы ввели одну дату с датой и временем то введите вторую так же.
         \nПопробуйте еще раз.</string>
-    <string name="dateInfoEdit">Введите дату</string>
-    <string name="infoAboutDateTextView">Узнать информацию о дате\nВведите: день месяц год
-        \nПример: 31 12 2022</string>
+    <string name="infoAboutDateTextView">Узнать информацию о дате:\nВведите: день месяц год
+        \nПример: 31 12 2022\n\nЛибо можете использовать \"текущая дата\" и нажать \"узнать\"</string>
     <string name="get_info">Узнать</string>
 
     <string name="january">Январь</string>
@@ -51,8 +49,7 @@
     <string name="eto">Это</string>
     <string name="denVgodu">день в году</string>
 
-    <string name="calculate_data">Калькулятор дат</string>
-    <string name="get_date_information">получить информацию о дате</string>
+    <string name="get_date_information">Информация о дате</string>
     <string name="main_menu">главное меню</string>
 
     <string name="ex_info_data">Вы ввели дату в неверном формате, попробуйте еще раз.</string>
@@ -62,4 +59,114 @@
     <string name="godu">году</string>
     <string name="notLeapYear1">Это не високосный год</string>
     <string name="notLeapYear2">Всего дней в</string>
+    <string name="b_cur_data">текущие дата и время</string>
+    <string name="switch_button_on">текущие дата и время (включено)</string>
+    <string name="switch_button_off">текущие дата и время (отключено)</string>
+    <string name="b_cur_data_get_info">текущая дата</string>
+    <string name="b_cur_data_on">текущая дата (включено)</string>
+    <string name="b_cur_data_off">текущая дата (отключено)</string>
+    <string name="b_holidays">Праздники</string>
+    <string name="b_new_year">Новый год</string>
+    <string name="b_rojdestvo">Рождество</string>
+    <string name="b_march8">8 марта</string>
+    <string name="b_nauryz">Наурыз мейрамы</string>
+    <string name="b_den_zawitnika_ote4estva">День защитника Отечества</string>
+    <string name="b_den_pobedy">День победы</string>
+    <string name="b_kazakhstan">Казахстан</string>
+    <string name="russia">Россия</string>
+    <string name="b_back_to_holidays_act">назад</string>
+    <string name="edinstvo_naroda_kz">Праздник единства народа Казахстана</string>
+    <string name="den_stolicy">День столицы</string>
+    <string name="kurban_ait">Курбан Айт</string>
+    <string name="den_konstitucii">День Конституции Республики Казахстан</string>
+    <string name="do_ng_ostalos">До Нового Года осталось…</string>
+    <string name="ifNowNG">С Новым Годом!)</string>
+    <string name="ifNowRojdestvo">С Рождеством!</string>
+    <string name="doRojdestvaOstalos">До Рождества осталось…</string>
+    <string name="den_nezavisimosti">День независимости</string>
+    <string name="do_march8_ostalos">До 8 марта осталось…</string>
+    <string name="ifNow8March">С 8 марта!</string>
+    <string name="do_nauryz_ostalos">До Наурыз осталось…</string>
+    <string name="ifNowNauryz">Поздравляем с праздником Наурыз!</string>
+    <string name="do_kurban_ait_ostalos">До Курбан Айт осталось…</string>
+    <string name="ifNowKurbanAit">Поздравляем с праздником Курбан Айт!</string>
+    <string name="do_den_edinst_naroda">До дня единства народа Казахстана осталось…</string>
+    <string name="ifNowDenEdinstvNar">Поздравляем с праздником день единства народа Казахстана!</string>
+    <string name="do_den_zawitnika_ot">До дня защитника отечества осталось…</string>
+    <string name="ifNowDenZawitnikaOt">Поздравляем С Днем Защитника Отечества!</string>
+    <string name="do_den_stolicy">До дня столицы осталось…</string>
+    <string name="ifNowDenStolicy">Поздравляем С Днем Столицы!</string>
+    <string name="do_den_pobedy_ostalos">До Дня Победы осталось…</string>
+    <string name="ifNowDenPobedy">Поздравляем С Днем Победы!</string>
+    <string name="do_den_nezavisimosti">До дня Независимости осталось…</string>
+    <string name="ifNowDenNezavisimosti">Поздравляем С Днем Независимости РК!</string>
+    <string name="do_den_konstitucii">До дня Конституции осталось…</string>
+    <string name="ifNowDenKonstitucii">Поздравляем С Днем Конституции РК!</string>
+    <string name="budetDobavleno">Будет добавлено в следующем обновлении</string>
+    <string name="res_den_narod_edinstva_ru">До дня Народного единства осталось…</string>
+    <string name="res_ifNowDenNarodEdinstva_ru">Поздравляем С Праздником Днем Народного Единства!</string>
+    <string name="res_do_den_rossii">До Дня России осталось…</string>
+    <string name="res_if_now_den_rossii">Поздравляем С Днем России!</string>
+    <string name="res_do_maslenicy">До Масленицы осталось…</string>
+    <string name="res_if_now_maslenica">Поздравляем с Масленицей!</string>
+    <string name="res_do_pashi_ost">До Пасхи осталось…</string>
+    <string name="res_if_now_pasha">Поздравляем с Пасхой!</string>
+    <string name="res_do_prazd_vesny_i_truda_ost">До Праздника Весны и Труда осталось…</string>
+    <string name="res_if_now_prazd_vesny_i_truda">Поздравляем С Праздником Весны и Труда!</string>
+    <string name="b_maslenica">Масленица</string>
+    <string name="b_pasha">Пасха</string>
+    <string name="b_prazd_vesny_i_truda">Праздник Весны и Труда</string>
+    <string name="b_den_rossii">День России</string>
+    <string name="b_den_narod_edinstva">День народного единства</string>
+    <string name="res_b_count_work_and_hol_days">Подсчёт рабочих и выходных дней</string>
+    <string name="res_textView_pods4et_rab_i_vyh_dney">\nПодсчет рабочих и выходных дней
+    Выберите рабочие дни.</string>
+    <string name="working_days">Рабочих дней</string>
+    <string name="hol_days">Выходных дней</string>
+    <string name="day_month_year">день месяц год</string>
+    <string name="exception_format_data_for_calc_workig_days">
+        Вы ввели дату в неверном формате\nПопробуйте ввести сначала \nДень Месяц Год через пробел
+        \nК примеру: 12 05 2020
+    </string>
+    <string name="res_b_counting_time">Подсчёт времени</string>
+    <string name="res_edit_year">лет</string>
+    <string name="res_edit_month">месяцев</string>
+    <string name="res_edit_weeks">недель</string>
+    <string name="res_edit_days">дней</string>
+    <string name="res_edit_hour">часов</string>
+    <string name="res_edit_min">минут</string>
+    <string name="res_edit_sec">секунд</string>
+    <string name="res_enter_date">Введите дату</string>
+
+    <string name="exception_format_data_for_counting_date">
+        Вы ввели дату в неверном формате\nПопробуйте ввести сначала \nДень Месяц Год через пробел
+        \nК примеру: 12 05 2020
+        \nлибо в формате со временем
+        \n12 05 2020 12 30
+    </string>
+
+    <string name="info1_for_counting_date">Результат:</string>
+    <string name="info2_for_counting_date">Новая дата - </string>
+    <string name="info3_for_counting_date">Новое время - </string>
+    <string name="info4_for_counting_date">День недели - </string>
+
+    <string name="res_b_plus">Прибавить к дате (включено)</string>
+    <string name="res_b_minus">Вычесть от даты (включено)</string>
+    <string name="res_textview_counting_date">Подсчёт времени.\nВведите день месяц год
+        \nПример: 12 12 2020 \nЛибо в формате со временем\n12 12 2020 13 00</string>
+    <string name="res_b_plus2">Прибавить к дате (отключено)</string>
+    <string name="res_b_minus2">Вычесть от даты (отключено)</string>
+
+    <string name="res_if_2_button_true">Нельзя выбрать (+) и (-) одновременно</string>
+    <string name="res_if_2_button_false">Выберите (+) либо (-)</string>
+    <string name="res_date_interval">Интервал дат</string>
+    <string name="res_add_to_date">прибавить к дате (+)</string>
+    <string name="res_subtract_from_date">вычесть от даты (-)</string>
+
+    <string name="res_ex_not_exist_date">Вы ввели несуществующую дату</string>
+    <string name="res_ex_empty_date">Вы не ввели дату</string>
+    <string name="res_b_update">Обновить</string>
+    <string name="res_b_updated">Обновлено</string>
+
+
 </resources>

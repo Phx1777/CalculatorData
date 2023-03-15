@@ -1,10 +1,14 @@
 package com.myrza.calculatordata;
 
 import java.text.SimpleDateFormat;
+import java.time.DateTimeException;
 import java.time.Duration;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
 import java.util.Calendar;
+import java.util.Date;
 
 public class DateInfo {
 
@@ -18,12 +22,23 @@ public class DateInfo {
                                          String Sunday,
                                          String eto, String denVGodu, String exception,
                                          String leapYear1, String leapYear2, String notLeapYear1,
-                                         String notLeapYear2, String godu) {
+                                         String notLeapYear2, String godu,
+                                         boolean switch_button_current_date,
+                                         String ex_date_not_exist,
+                                         String ex_empty_date) {
 
         StringBuilder stringBuilder = new StringBuilder();
+        String data = null;
+
 
         try {
-            String data = inputData.replaceAll("[\\s|\\D]+", " ").trim();
+
+            if (switch_button_current_date) {
+                data = currentData();
+            } else {
+                data = inputData.replaceAll("[\\s|\\D]+", " ").trim();
+            }
+
 
             Calendar calendar = Calendar.getInstance();
             String[] toArr = data.split(" ");
@@ -31,6 +46,12 @@ public class DateInfo {
             int day = Integer.parseInt(toArr[0]);
             int month = Integer.parseInt(toArr[1]);
             int year = Integer.parseInt(toArr[2]);
+
+            try {
+                LocalDate localDate = LocalDate.of(year, month, day);
+            } catch (DateTimeException e) {
+                return ex_date_not_exist;
+            }
 
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd MM yyyy");
             DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("d M yyyy H m");
@@ -75,8 +96,10 @@ public class DateInfo {
             stringBuilder.append(res2);
             stringBuilder.append("\n");
             stringBuilder.append(res3);
-        } catch (Exception e) {
+        } catch (DateTimeParseException | ArrayIndexOutOfBoundsException e) {
             return exception;
+        } catch (NumberFormatException e) {
+            return ex_empty_date;
         }
 
         return stringBuilder.toString();
@@ -141,6 +164,12 @@ public class DateInfo {
 
     public static boolean isLeapYear(int year) {
         return (year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0));
+    }
+
+    public static String currentData() {
+        SimpleDateFormat format1 = new SimpleDateFormat("d M yyyy");
+        Date getCurrentData = new Date(System.currentTimeMillis());
+        return format1.format(getCurrentData);
     }
 
 

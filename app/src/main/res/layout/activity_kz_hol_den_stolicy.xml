@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClick"
+    android:orientation="vertical"
+    tools:context=".kz_hol_all.Kz_hol_den_stolicy"
+    android:background="#07354A"
+    >
+
+
+
+
+    <Button
+        android:id="@+id/b_to_main2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:insetLeft="5dp"
+        android:insetTop="10dp"
+        android:insetRight="5dp"
+        android:insetBottom="10dp"
+
+        android:onClick="onClick"
+        android:text="@string/main_menu"
+
+        android:textSize="25sp"
+        app:cornerRadius="30dp"
+
+        android:backgroundTint="#1AB515"
+        android:textColor="@color/white"
+
+        android:drawableLeft="@drawable/icons8_home_page_35"
+
+        />
+
+
+    <Button
+        android:id="@+id/b_back_to_holidays_activityy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:insetLeft="5dp"
+        android:insetTop="7dp"
+        android:insetRight="5dp"
+        android:insetBottom="10dp"
+
+        android:onClick="onClick"
+
+        android:text="@string/b_back_to_holidays_act"
+        android:textSize="25sp"
+        app:cornerRadius="30dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="@color/white"
+
+        android:drawableLeft="@drawable/icons8_go_back_35"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/b_get_info_about_den_stolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:insetLeft="5dp"
+        android:insetTop="40dp"
+        android:insetRight="5dp"
+        android:insetBottom="10dp"
+
+        android:onClick="onClick"
+
+        android:text="@string/res_b_update"
+
+        android:textSize="25sp"
+        app:cornerRadius="30dp"
+
+        android:drawableLeft="@drawable/icons8_restart_35"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/info_result_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#07354A"
+            android:onClick="onClick"
+            android:text="@string/do_den_stolicy"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </ScrollView>
+
+</LinearLayout>

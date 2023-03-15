@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#07354A"
+    android:onClick="onClick"
+    android:orientation="vertical"
+    tools:context=".Holidays">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#07354A"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b_to_main2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#1AB515"
+                android:drawableLeft="@drawable/icons8_home_page_35"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+
+                android:onClick="onClick"
+                android:text="@string/main_menu"
+
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+
+                />
+
+            <Button
+                android:id="@+id/kazakhstan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#009999"
+                android:insetLeft="5dp"
+                android:insetTop="40dp"
+                android:insetRight="5dp"
+
+                android:insetBottom="10dp"
+                android:onClick="onClick"
+
+                android:text="@string/b_kazakhstan"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+
+                />
+
+            <Button
+                android:id="@+id/russia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#009999"
+                android:insetLeft="5dp"
+                android:insetTop="8dp"
+                android:insetRight="5dp"
+
+                android:insetBottom="10dp"
+                android:onClick="onClick"
+
+                android:text="@string/russia"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

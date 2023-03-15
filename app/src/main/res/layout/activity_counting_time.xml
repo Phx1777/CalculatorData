@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#07354A"
+    android:onClick="onClick"
+    android:orientation="vertical"
+    tools:context=".Counting_time">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#07354A"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="15dp">
+
+                <EditText
+                    android:id="@+id/edit_counting_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1sp"
+                    android:autofillHints=""
+                    android:background="@color/material_dynamic_neutral90"
+                    android:hint="@string/res_enter_date"
+                    android:inputType="text"
+                    android:padding="17sp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="25sp"
+                    tools:ignore="TextFields" />
+
+                <Switch
+                    android:id="@+id/b_switch_current_data_activity_counting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/material_dynamic_neutral90"
+                    android:checked="false"
+                    android:text="@string/b_cur_data"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/b_get_info_about_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+
+                android:onClick="onClick"
+
+                android:text="@string/button_name"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+                android:drawableLeft="@drawable/icons8_calculate_35"
+                />
+
+            <Button
+                android:id="@+id/restart_button_counting_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#7C8183"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+
+                android:insetBottom="10dp"
+
+                android:onClick="onClick"
+                android:text="@string/restart"
+
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+                android:drawableLeft="@drawable/icons8_trash_35"
+                />
+
+            <Button
+                android:id="@+id/b_to_main_counting_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#1AB515"
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+
+                android:insetBottom="10dp"
+                android:onClick="onClick"
+
+                android:text="@string/main_menu"
+                android:textColor="@color/white"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+                android:drawableLeft="@drawable/icons8_home_page_35"
+                />
+
+
+            <TextView
+                android:id="@+id/info_result_date_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="#07354A"
+                android:onClick="onClick"
+                android:text="@string/res_textview_counting_date"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+
+            <CheckBox
+                android:id="@+id/radioButton_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#07354A"
+                android:text="@string/res_add_to_date"
+                android:textColor="#E7EF17"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/radioButton_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="12dp"
+                android:background="#07354A"
+                android:text="@string/res_subtract_from_date"
+                android:textColor="#ED5555"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/edit_sec"
+                android:layout_width="140sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:autofillHints=""
+                android:background="@color/material_dynamic_neutral90"
+                android:hint="@string/res_edit_sec"
+                android:inputType="datetime"
+                android:padding="17dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="25sp"
+                tools:ignore="TextFields" />
+
+            <EditText
+                android:id="@+id/edit_min"
+                android:layout_width="140sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:autofillHints=""
+                android:background="@color/material_dynamic_neutral90"
+                android:hint="@string/res_edit_min"
+                android:inputType="datetime"
+                android:padding="17dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="25sp"
+                tools:ignore="TextFields" />
+
+            <EditText
+                android:id="@+id/edit_hour"
+                android:layout_width="140sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:autofillHints=""
+                android:background="@color/material_dynamic_neutral90"
+                android:hint="@string/res_edit_hour"
+                android:inputType="datetime"
+                android:padding="17dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="25sp"
+                tools:ignore="TextFields" />
+
+            <EditText
+                android:id="@+id/edit_days"
+                android:layout_width="140sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:autofillHints=""
+                android:background="@color/material_dynamic_neutral90"
+                android:hint="@string/res_edit_days"
+                android:inputType="datetime"
+                android:padding="17dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="25sp"
+                tools:ignore="TextFields" />
+
+            <EditText
+                android:id="@+id/edit_weeks"
+                android:layout_width="140sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:autofillHints=""
+                android:background="@color/material_dynamic_neutral90"
+                android:hint="@string/res_edit_weeks"
+                android:inputType="datetime"
+                android:padding="17dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="25sp"
+                tools:ignore="TextFields" />
+
+            <EditText
+                android:id="@+id/edit_month"
+                android:layout_width="140sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:autofillHints=""
+                android:background="@color/material_dynamic_neutral90"
+                android:hint="@string/res_edit_month"
+                android:inputType="datetime"
+                android:padding="17dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="25sp"
+                tools:ignore="TextFields" />
+
+            <EditText
+                android:id="@+id/edit_years"
+                android:layout_width="140sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:autofillHints=""
+                android:background="@color/material_dynamic_neutral90"
+                android:hint="@string/res_edit_year"
+                android:inputType="datetime"
+                android:padding="17dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="25sp"
+                tools:ignore="TextFields" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

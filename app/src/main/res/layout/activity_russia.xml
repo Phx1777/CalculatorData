@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClick"
+    android:orientation="vertical"
+    tools:context=".Russia_activity"
+    android:scrollbarDefaultDelayBeforeFade="@android:integer/config_shortAnimTime"
+    android:scrollbars="vertical"
+    android:background="#07354A"
+    >
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#07354A"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/b_to_main2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+
+                android:onClick="onClick"
+                android:text="@string/main_menu"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+                android:backgroundTint="#1AB515"
+                android:textColor="@color/white"
+
+                android:drawableLeft="@drawable/icons8_home_page_35"
+                />
+
+            <Button
+                android:id="@+id/b_back_to_holidays_activity_ruu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetTop="8dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+
+                android:onClick="onClick"
+                android:text="@string/b_back_to_holidays_act"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+
+                android:backgroundTint="#2196F3"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/icons8_go_back_35"
+
+
+                />
+
+
+            <Button
+                android:id="@+id/new_year_ru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetTop="40dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+
+                android:onClick="onClick"
+                android:text="@string/b_new_year"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+
+                android:backgroundTint="#009999"
+                android:textColor="@color/white"
+
+                />
+
+            <Button
+                android:id="@+id/rojdestvo_ru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetTop="8dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+
+                android:onClick="onClick"
+                android:text="@string/b_rojdestvo"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+                android:backgroundTint="#009999"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/den_zawitnika_ote4estva_ru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#009999"
+                android:insetLeft="5dp"
+                android:insetTop="8dp"
+                android:insetRight="5dp"
+
+                android:insetBottom="10dp"
+                android:onClick="onClick"
+
+                android:text="@string/b_den_zawitnika_ote4estva"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                app:cornerRadius="30dp" />
+
+            <Button
+                android:id="@+id/maslenica_ru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetTop="8dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+
+                android:onClick="onClick"
+                android:text="@string/b_maslenica"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+                android:backgroundTint="#009999"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/march8_ru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetTop="8dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+
+                android:onClick="onClick"
+                android:text="@string/b_march8"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+                android:backgroundTint="#009999"
+                android:textColor="@color/white"
+                />
+
+
+
+            <Button
+                android:id="@+id/pasha_ru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetTop="8dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+
+                android:onClick="onClick"
+                android:text="@string/b_pasha"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+                android:backgroundTint="#009999"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/prazdink_vesny_i_truda_ru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetTop="8dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+
+                android:onClick="onClick"
+                android:text="@string/b_prazd_vesny_i_truda"
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+                android:backgroundTint="#009999"
+                android:textColor="@color/white"
+                />
+
+
+            <Button
+                android:id="@+id/den_pobedy_ru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetTop="8dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+
+                android:onClick="onClick"
+                android:text="@string/b_den_pobedy"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+                android:backgroundTint="#009999"
+                android:textColor="@color/white"
+                />
+
+
+            <Button
+                android:id="@+id/den_rosii_ru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetTop="8dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+
+                android:onClick="onClick"
+                android:text="@string/b_den_rossii"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+                android:backgroundTint="#009999"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/den_narodnogo_edinstva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetTop="8dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+
+                android:onClick="onClick"
+                android:text="@string/b_den_narod_edinstva"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+                android:backgroundTint="#009999"
+                android:textColor="@color/white"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

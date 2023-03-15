@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClick"
+    android:orientation="vertical"
+    tools:context=".World_holidays"
+    android:scrollbarDefaultDelayBeforeFade="@android:integer/config_shortAnimTime"
+    android:scrollbars="vertical"
+    android:background="#07354A"
+    >
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#07354A"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/b_to_main2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetTop="10dp"
+                android:insetRight="5dp"
+                android:insetBottom="10dp"
+
+                android:onClick="onClick"
+                android:text="@string/main_menu"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+
+                android:backgroundTint="#1AB515"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/icons8_home_page_35"
+                />
+
+            <Button
+                android:id="@+id/b_back_to_holidays_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetTop="8dp"
+                android:insetRight="5dp"
+                android:insetBottom="40dp"
+
+                android:onClick="onClick"
+                android:text="@string/b_back_to_holidays_act"
+
+                android:textSize="25sp"
+                app:cornerRadius="30dp"
+                android:backgroundTint="#2196F3"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/icons8_go_back_35"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/budetDobavleno"
+                android:background="#07354A"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                >
+            </TextView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

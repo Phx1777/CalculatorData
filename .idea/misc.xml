@@ -3,15 +3,53 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_calculate_data.xml" value="0.20729166666666668" />
-        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_get_date_info.xml" value="0.22" />
-        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.11" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/drawable/ic_launcher_background.xml" value="0.11" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/drawable/share_item_picture.xml" value="0.1255" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout-land/activity_calculate_data.xml" value="0.1" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_america.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_calculate_data.xml" value="0.13999999999999999" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_count_work_and_hol_days.xml" value="0.14666666666666667" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_counting_time.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_get_date_info.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_holidays.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_how_many_days_until_the.xml" value="0.22135416666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_interval_date.xml" value="0.1" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_kazakhstan.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_kz_hol_den_konstitucii.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_kz_hol_den_nezavisimosti.xml" value="0.22" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_kz_hol_den_pervogo_prezidenta.xml" value="0.15307971014492755" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_kz_hol_den_pobedy.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_kz_hol_den_stolicy.xml" value="0.15307971014492755" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_kz_hol_den_zawitnik_ote4estva.xml" value="0.15307971014492755" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_kz_hol_edinstv_naroda.xml" value="0.15307971014492755" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_kz_hol_kurban_ait.xml" value="0.15307971014492755" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_kz_hol_march8.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_kz_hol_nauryz.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_kz_hol_new_year.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_kz_hol_rojdestvo.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_main2.xml" value="0.22135416666666666" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_main_activityy.xml" value="0.22135416666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_ru_hol_den_narodnogo_edinstva.xml" value="0.1453804347826087" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_ru_hol_den_pobedy.xml" value="0.13043478260869565" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_ru_hol_den_rossii.xml" value="0.16077898550724637" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_ru_hol_den_zawit_ote4.xml" value="0.13043478260869565" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_ru_hol_march8.xml" value="0.13043478260869565" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_ru_hol_maslenica.xml" value="0.15307971014492755" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_ru_hol_new_year.xml" value="0.13043478260869565" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_ru_hol_pasha.xml" value="0.16077898550724637" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_ru_hol_prazdnik_vesny_itruda.xml" value="0.16077898550724637" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_ru_hol_rojdestvo.xml" value="0.13043478260869565" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_russia.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_ukrain.xml" value="0.1" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_world_holidays.xml" value="0.16666666666666666" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/content_main_activityy.xml" value="0.22135416666666666" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/date_information.xml" value="0.22135416666666666" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/fragment_first.xml" value="0.22135416666666666" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/fragment_second.xml" value="0.22135416666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/menu/main_menu.xml" value="0.17848101265822786" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/mipmap-anydpi-v26/ico_calc_ff.xml" value="0.1225" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/mipmap-anydpi-v26/iconCalcData.xml" value="0.1" />
       </map>
     </option>
@@ -25,7 +63,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.22" />
+        <option name="scale" value="0.10666666666666667" />
       </ProjectState>
     </option>
   </component>

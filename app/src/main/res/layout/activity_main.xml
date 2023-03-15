@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#07354A"
     android:orientation="vertical"
     tools:context="com.myrza.calculatordata.MainActivity">
 
@@ -13,17 +14,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
+        android:backgroundTint="#2DBFB2"
         android:insetLeft="5dp"
         android:insetTop="30dp"
         android:insetRight="5dp"
-        android:insetBottom="10dp"
+
+        android:insetBottom="15dp"
 
         android:onClick="onClick"
+        android:text="@string/res_date_interval"
 
-        android:text="@string/calculate_data"
+        android:textColor="@color/white"
         android:textSize="25sp"
-
-        app:cornerRadius="30dp" />
+        app:cornerRadius="30dp"
+        android:drawableLeft="@drawable/icons8_schedule_35"
+        />
 
 
     <Button
@@ -31,16 +36,94 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
+        android:backgroundTint="#CCAC00"
         android:insetLeft="5dp"
         android:insetTop="10dp"
         android:insetRight="5dp"
-        android:insetBottom="10dp"
+
+        android:insetBottom="15dp"
 
         android:onClick="onClick"
 
         android:text="@string/get_date_information"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:cornerRadius="30dp"
+
+        android:drawableLeft="@drawable/icons8_information_35"
+
+        />
+
+    <Button
+        android:id="@+id/l_holidays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="#CA3D6D"
+        android:insetLeft="5dp"
+        android:insetTop="10dp"
+        android:insetRight="5dp"
+
+        android:insetBottom="15dp"
+
+        android:onClick="onClick"
+
+        android:text="@string/b_holidays"
+        android:textColor="@color/white"
 
         android:textSize="25sp"
-        app:cornerRadius="30dp" />
+        app:cornerRadius="30dp"
+
+        android:drawableLeft="@drawable/icons8_confetti_35"
+
+        />
+
+    <Button
+        android:id="@+id/l_count_work_days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="#3F51B5"
+        android:insetLeft="5dp"
+        android:insetTop="10dp"
+        android:insetRight="5dp"
+
+        android:insetBottom="15dp"
+
+        android:onClick="onClick"
+
+        android:text="@string/res_b_count_work_and_hol_days"
+        android:textColor="@color/white"
+
+        android:textSize="25sp"
+        app:cornerRadius="30dp"
+
+        android:drawableLeft="@drawable/icons8_day_off_35"
+
+        />
+
+    <Button
+        android:id="@+id/l_counting_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:backgroundTint="#00796B"
+        android:insetLeft="5dp"
+        android:insetTop="10dp"
+        android:insetRight="5dp"
+
+        android:insetBottom="15dp"
+
+        android:onClick="onClick"
+
+        android:text="@string/res_b_counting_time"
+        android:textColor="@color/white"
+
+        android:textSize="25sp"
+        app:cornerRadius="30dp"
+        android:drawableLeft="@drawable/icons8_plus_slash_minus_35"
+
+        />
+
 
 </LinearLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.myrza.calculatordata" >
+    package="com.myrza.calculatordata">
 
     <application
         android:allowBackup="true"
@@ -12,18 +12,103 @@
         android:roundIcon="@mipmap/ikonka_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CalculatorData"
-        tools:targetApi="31" >
+        tools:targetApi="31">
         <activity
-            android:name=".Calculate_data"
+            android:name=".Counting_time"
+            android:exported="false" />
+        <activity
+            android:name=".Count_work_and_hol_days"
+            android:exported="false" />
+        <activity
+            android:name=".ru_holl_all.Ru_hol_march8"
+            android:exported="false" />
+        <activity
+            android:name=".ru_holl_all.Ru_hol_den_zawit_ote4"
+            android:exported="false" />
+        <activity
+            android:name=".ru_holl_all.Ru_hol_den_pobedy"
+            android:exported="false" />
+        <activity
+            android:name=".ru_holl_all.Ru_hol_rojdestvo"
+            android:exported="false" />
+        <activity
+            android:name=".ru_holl_all.Ru_hol_new_year"
+            android:exported="false" />
+        <activity
+            android:name=".ru_holl_all.Ru_hol_den_narodnogo_edinstva"
+            android:exported="false" />
+        <activity
+            android:name=".ru_holl_all.Ru_hol_den_rossii"
+            android:exported="false" />
+        <activity
+            android:name=".ru_holl_all.Ru_hol_prazdnik_vesny_i_truda"
+            android:exported="false" />
+        <activity
+            android:name=".ru_holl_all.Ru_hol_pasha"
+            android:exported="false" />
+        <activity
+            android:name=".ru_holl_all.Ru_hol_maslenica"
+            android:exported="false" />
+        <activity
+            android:name=".World_holidays"
+            android:exported="false" />
+        <activity
+            android:name=".kz_hol_all.Kz_hol_den_nezavisimosti"
+            android:exported="false" />
+        <activity
+            android:name=".kz_hol_all.Kz_hol_den_konstitucii"
+            android:exported="false" />
+        <activity
+            android:name=".kz_hol_all.Kz_hol_kurban_ait"
+            android:exported="false" />
+        <activity
+            android:name=".kz_hol_all.Kz_hol_den_stolicy"
+            android:exported="false" />
+        <activity
+            android:name=".kz_hol_all.Kz_hol_den_pobedy"
+            android:exported="false" />
+        <activity
+            android:name=".kz_hol_all.Kz_hol_den_zawitnik_ote4estva"
+            android:exported="false" />
+        <activity
+            android:name=".kz_hol_all.Kz_hol_edinstv_naroda"
+            android:exported="false" />
+        <activity
+            android:name=".kz_hol_all.Kz_hol_nauryz"
+            android:exported="false" />
+        <activity
+            android:name=".kz_hol_all.Kz_hol_march8"
+            android:exported="false" />
+        <activity
+            android:name=".kz_hol_all.Kz_hol_rojdestvo"
+            android:exported="false" />
+        <activity
+            android:name=".kz_hol_all.Kz_hol_new_year"
+            android:exported="false" />
+        <activity
+            android:name=".America_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Russia_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Kazakhstan_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Holidays"
+            android:exported="false" />
+        <activity
+            android:name=".Interval_date"
             android:exported="false" />
         <activity
             android:name=".Get_date_info"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
