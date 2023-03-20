@@ -170,7 +170,7 @@
                 />
 
             <TextView
-                android:id="@+id/data_result"
+                android:id="@+id/data_result_count_work_and_hol_days"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#07354A"

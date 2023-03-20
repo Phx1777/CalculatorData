@@ -107,7 +107,7 @@ public class Kz_hol_den_nezavisimosti extends AppCompatActivity implements View.
 
         Button get_info_about_den_nezavis = findViewById(R.id.b_get_info_about_den_nezavisimosti);
 
-        textView = findViewById(R.id.data_result);
+
         textView = findViewById(R.id.info_result_date);
 
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);

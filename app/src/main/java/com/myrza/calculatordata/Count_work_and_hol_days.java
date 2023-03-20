@@ -3,9 +3,12 @@ package com.myrza.calculatordata;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -68,6 +71,11 @@ public class Count_work_and_hol_days extends AppCompatActivity implements View.O
 
     private boolean bool_clear_button_was_pressed_or_not1 = false;
     private boolean bool_clear_button_was_pressed_or_not2 = false;
+
+    ///////new*****
+    private int index = 0;
+    private final long delay = 35; // задержка между выводом символов, в миллисекундах
+    ///////
 
 
     @SuppressLint("NonConstantResourceId")
@@ -150,13 +158,18 @@ public class Count_work_and_hol_days extends AppCompatActivity implements View.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_count_work_and_hol_days);
 
+        /////new
+        Context context = this;
+        Resources resources = context.getResources();
+        //////
+
         getSupportActionBar().setTitle(getResources().getString(R.string.res_b_count_work_and_hol_days));
 
         editText1 = findViewById(R.id.input_data1_calc_work_and_hol);
         editText2 = findViewById(R.id.input_data2_calc_work_and_hol);
         Button do_calc_button = findViewById(R.id.button_do_calc_work_and_hol);
 
-        textView = findViewById(R.id.data_result);
+        textView = findViewById(R.id.data_result_count_work_and_hol_days);
 
         progressBar = findViewById(R.id.progressBar_work_hol);
 
@@ -271,7 +284,30 @@ public class Count_work_and_hol_days extends AppCompatActivity implements View.O
             }
         });
 
+
+
+        ///////new*****
+        String info_text = resources.getString(R.string.res_textView_pods4et_rab_i_vyh_dney);
+
+        // создаем Handler для задержки вывода каждого символа
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                // выводим следующий символ
+                textView.setText(info_text.substring(0, index++));
+                // проверяем, достигли ли конца строки
+                if (index <= info_text.length()) {
+                    // постим задачу для следующего символа через delay миллисекунд
+                    handler.postDelayed(this, delay);
+                }
+            }
+        }, delay);
+        /////////////************
+
+
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);
         do_calc_button.setOnClickListener(onClickListener);
+
     }
 }

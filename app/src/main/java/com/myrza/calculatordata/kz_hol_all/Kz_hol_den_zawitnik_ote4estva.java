@@ -106,7 +106,7 @@ public class Kz_hol_den_zawitnik_ote4estva extends AppCompatActivity implements 
 
         Button get_info_about_den_zawit_ote4 = findViewById(R.id.b_get_info_about_zawitnik_ote4estva);
 
-        textView = findViewById(R.id.data_result);
+
         textView = findViewById(R.id.info_result_date);
 
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);

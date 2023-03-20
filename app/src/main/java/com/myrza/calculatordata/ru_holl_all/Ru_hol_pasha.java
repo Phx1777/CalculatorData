@@ -106,7 +106,7 @@ public class Ru_hol_pasha extends AppCompatActivity implements View.OnClickListe
 
         Button b_pasha = findViewById(R.id.b_get_info_about_pasha_ru);
 
-        textView = findViewById(R.id.data_result);
+
         textView = findViewById(R.id.info_result_date);
 
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);

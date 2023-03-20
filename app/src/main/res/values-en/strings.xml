@@ -171,4 +171,149 @@
     <string name="res_b_updated">Updated</string>
 
 
+
+    <string name="res_txtview_info_day_of_birth">Date of birth information\n\nEnter day month year\nExample: 17 05 1990</string>
+    <string name="res_b_info_birthday">Date of birth information</string>
+    <string name="res_vash_vozrast">Your age</string>
+    <string name="res_do_dr_ostalos">Until the birthday left:</string>
+    <string name="res_znak_zodiaka">Zodiac sign</string>
+    <string name="res_upravitel">The Steward</string>
+    <string name="res_stihiya_po_zodiaku">Element by zodiac</string>
+    <string name="res_kamen">Stone</string>
+    <string name="res_pozdravlyaem_s_dr">Happy Birthday!</string>
+
+    <string name="res_z_oven">Aries</string>
+    <string name="res_z_telec">Taurus</string>
+    <string name="res_z_bliznecy">Gemini</string>
+    <string name="res_z_rak">Cancer</string>
+    <string name="res_z_lev">Leo</string>
+    <string name="res_z_deva">Virgo</string>
+    <string name="res_z_vesy">Libra</string>
+    <string name="res_z_skorpion">Scorpio</string>
+    <string name="res_z_strelec">Sagittarius</string>
+    <string name="res_z_kozerog">Capricorn</string>
+    <string name="res_z_vodolei">Aquarius</string>
+    <string name="res_z_ryby">Pisces</string>
+
+    <string name="res_god_krysy">Rat</string>
+    <string name="res_god_byka">Ox</string>
+    <string name="res_god_tigra">Tiger</string>
+    <string name="res_god_krolika">Rabbit</string>
+    <string name="res_god_snake">Snake</string>
+    <string name="res_god_horse">Horse</string>
+    <string name="res_god_kozy">Goat</string>
+    <string name="res_god_monkey">Monkey</string>
+    <string name="res_god_dragon">Dragon</string>
+    <string name="res_god_petuh">Rooster</string>
+    <string name="res_god_dog">Dog</string>
+    <string name="res_god_pig">Pig</string>
+
+    <string name="res_ex_if_za_predely_vremeni">Enter a year from 1012 to 5000</string>
+
+    <string name="res_god_po_vosto4nomy_kalendaryu">Eastern calendar year: </string>
+
+    <string name="res_stihiya_zemlya">Earth</string>
+    <string name="res_stihiya_vozduh">Air</string>
+    <string name="res_stihiya_voda">Water</string>
+    <string name="res_stihiya_ogon">Fire</string>
+
+    <string name="res_upravitel_merkuri">Mercury</string>
+    <string name="res_upravitel_venera">Venus</string>
+    <string name="res_upravitel_mars">Mars</string>
+    <string name="res_upravitel_yupiter">Jupiter</string>
+    <string name="res_upravitel_saturn">Saturn</string>
+    <string name="res_upravitel_uran">Uranus</string>
+    <string name="res_upravitel_neptun">Neptune</string>
+    <string name="res_upravitel_pluton">Pluto</string>
+    <string name="res_upravitel_luna">Moon</string>
+    <string name="res_upravitel_solnce">Sun</string>
+
+    <string name="res_k_oven">Aries Stones by Decades\n
+                In addition to the month, you can also take into account the decade in which the person was born:\n
+                1st decade (21.03 - 01.04) - aquamarine, heliotrope, amethyst have a special influence;\n
+                2nd decade (02.04 - 11.04) - diamond (diamond);\n
+                3rd decade (12.04 - 20.04) - emerald, ruby, selenite, bloodstone.</string>
+
+    <string name="res_k_telec">Taurus Stones by Decades\n
+                All of the stones listed are suitable for Taurus, however, some of them will be especially
+                useful for those born in a certain decade of the period.\n
+                1 decade (21.04 - 1.05) - diamond (brilliant);\n
+                2nd and 3rd decade (02.05 - 21.05) - emerald and sapphire.</string>
+
+    <string name="res_k_bliznecy">Gemini Stones by Decade\n
+                1st decade (22.05 - 31.05) - emerald, jasper;\n
+                2nd decade (01.06 - 10.06) - rock crystal, garnet, topaz;\n
+                3rd decade (11.06 - 21.06) - pearls, moonstone (for the Gemini woman), sapphire.</string>
+
+    <string name="res_k_rak">Stones of Cancer by decade\n
+                It is believed that talisman stones receive special power if they are selected according to the decade of birth:\n
+                1st decade (22.06 - 01.07) - pearls, moonstone;\n
+                2nd decade (02.07 - 11.07) - emerald, ruby;\n
+                3rd decade (12.07 - 22.07) - moonstone, pearls, ruby.</string>
+
+    <string name="res_k_lev">Lion Stones by Decades\n
+                In addition to the main talisman - ruby, you can recommend an amulet depending on the decade of birth:\n
+                1st decade (from July 23 to August 2) - ruby, chrysolite, heliotrope;\n
+                2nd decade (from August 3 to 12) - diamond (brilliant), topaz;\n
+                3rd decade (from August 13 to 23) - topaz, diamond.</string>
+
+    <string name="res_k_deva">Virgo Stones by Decades of Birth\n
+                In addition to the month of birth, astrologers advise taking into account the decade in which a person was born.
+                \nIn this case, Virgo\'s talismans are:\n
+                1st decade (from August 24 to September 2) - topaz, yellow sapphire;\n
+                2nd decade (from 3 to 12 September) - sapphire, topaz, jasper;\n
+                3rd decade (from September 13 to 22) - sapphire, lapis lazuli.</string>
+
+    <string name="res_k_vesy">Stones of Libra by decade of birth\n
+                In addition to the month of birth, astrologers advise taking into account the decade of birth when choosing a talisman stone:\n
+                1st decade (from September 23 to October 9) - diamond, selenite, sapphire;\n
+                2nd decade (from October 4 to October 13) - diamond, amethyst, beryl;\n
+                3rd decade (from October 14 to October 23) - diamond, opal, tiger\'s eye.</string>
+
+    <string name="res_k_skorpion">Scorpio Stones by Decades\n
+                Astrologers name additional talismans of Scorpio according to the decade of birth:\n
+                1st decade (from October 24 to November 2) - opal;\n
+                2nd decade (from November 3 to November 13) - ruby;\n
+                3rd decade (from November 14 to November 22) - rock crystal.</string>
+
+
+    <string name="res_k_strelec">Which stone suits Sagittarius by decades:\n
+                1st decade (November 23 - December 2) Those born in this period are cheerful and courageous people, always a little adventurers. Their talisman is an amethyst.\n
+                2nd decade (December 3 - 12) People born in this period are changeable and dreamy. These are the most creative representatives of the sign.
+                \nTheir talisman is chrysoprase, which attracts money and grants independence.\n
+                3rd decade (December 13 - 21) Representatives of the third decade are the most purposeful, they see no barriers to achieving goals.
+                \nFor those around them, they are like the sun, they can delight, warm or incinerate.
+                \nTheir talismans are two precious corundums, a ruby and a sapphire.</string>
+
+    <string name="res_k_kozerog">Lucky Capricorn stones by decade:\n
+                1st decade (from December 22 to January 2) - topaz.\n
+                2nd decade (January 3rd to 13th) - ruby.\n
+                3rd decade (from January 14 to 20) - tourmaline and pomegranate.</string>
+
+
+    <string name="res_k_vodolei">Lucky stones of Aquarius by decades:
+                \n1st decade (from January 21 to February 1) - patronizes Venus.
+                \nThese are sensitive and empathic natures who charm those around them with their calmness and get along well with them.
+                \nAt the same time, they often lack self-confidence. Pearls will help to harmonize this aspect.\n
+                2nd decade (from February 2 to February 11) - are in the power of Mercury.
+                \nThey are distinguished by the desire to achieve any goal. Versatile intellectuals, they like to be in the spotlight.
+                \nAmethyst will be a good talisman for them.\n
+                3rd decade (February 12 to 18) - strongly influenced by the Moon.
+                \nThese are passionate fighters for justice, often overly stubborn and straightforward.
+                \nSapphire and topaz are able to balance these qualities.</string>
+
+
+    <string name="res_k_ryby">Lucky Pisces stones by decade:
+                \n1 decade (from February 20 to March 1) - a faceted amethyst will become an ideal talisman,
+                \nMoonstone is also considered good from an energy point of view.
+                \n2 decade (from March 2 to March 11) - we advise those born on these dates to choose white opal,
+                \nrutile quartz, white pearl, white opal, hairy quartz.
+                \n3 decade (from March 12 to March 20) - Several gems suit them at once:
+                \nAlexandrite, aquamarine, chrysolite, emerald, sapphire, tourmaline.</string>
+
+    <string name="res_vy_rodilis_v">You were born in - </string>
+    <string name="res_vashe_dr_budet_v">Your birthday will be in - </string>
+    <string name="res_esli_god_rojdenya_bolshe_tekushego">Enter the year of birth in the range from 1012 to 5000</string>
+
+
 </resources>

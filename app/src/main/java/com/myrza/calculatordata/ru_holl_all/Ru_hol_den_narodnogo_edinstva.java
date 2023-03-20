@@ -106,7 +106,6 @@ public class Ru_hol_den_narodnogo_edinstva extends AppCompatActivity implements 
 
         Button b_den_narod_edinstva_ru = findViewById(R.id.b_get_info_about_den_narod_edinstva_ru);
 
-        textView = findViewById(R.id.data_result);
         textView = findViewById(R.id.info_result_date);
 
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);

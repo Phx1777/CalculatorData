@@ -169,4 +169,151 @@
     <string name="res_b_updated">Uuendatud</string>
 
 
+    <string name="res_txtview_info_day_of_birth">Sünnikuupäeva teave\n\nSisestage päev kuu aasta\nNäide: 17 05 1990</string>
+    <string name="res_b_info_birthday">Sünnikuupäeva teave</string>
+
+    <string name="res_vash_vozrast">Sinu vanus</string>
+    <string name="res_do_dr_ostalos">Kuni sünnipäevani on jäänud:</string>
+    <string name="res_znak_zodiaka">Tähtkuju</string>
+    <string name="res_upravitel">Korraldaja</string>
+    <string name="res_stihiya_po_zodiaku">Element sodiaagi järgi</string>
+    <string name="res_kamen">Kivi</string>
+    <string name="res_pozdravlyaem_s_dr">Palju õnne sünnipäevaks!</string>
+
+    <string name="res_z_oven">Aries</string>
+    <string name="res_z_telec">Sõnn</string>
+    <string name="res_z_bliznecy">Kaksikud</string>
+    <string name="res_z_rak">Vähk</string>
+    <string name="res_z_lev">Leo</string>
+    <string name="res_z_deva">Neitsi</string>
+    <string name="res_z_vesy">Kaalud</string>
+    <string name="res_z_skorpion">Skorpion</string>
+    <string name="res_z_strelec">Ambur</string>
+    <string name="res_z_kozerog">Kaljukits</string>
+    <string name="res_z_vodolei">Veevalaja</string>
+    <string name="res_z_ryby">Kalad</string>
+
+    <string name="res_god_krysy">Rott</string>
+    <string name="res_god_byka">Ox</string>
+    <string name="res_god_tigra">Tiiger</string>
+    <string name="res_god_krolika">Jänes</string>
+    <string name="res_god_snake">Madu</string>
+    <string name="res_god_horse">Hobune</string>
+    <string name="res_god_kozy">Kits</string>
+    <string name="res_god_monkey">Ahv</string>
+    <string name="res_god_dragon">Draakon</string>
+    <string name="res_god_petuh">Kukk</string>
+    <string name="res_god_dog">Koer</string>
+    <string name="res_god_pig">Siga</string>
+
+    <string name="res_ex_if_za_predely_vremeni">Sisestage aasta vahemikus 1012 kuni 5000</string>
+
+    <string name="res_god_po_vosto4nomy_kalendaryu">Idakalendri aasta: </string>
+
+    <string name="res_stihiya_zemlya">Maa</string>
+    <string name="res_stihiya_vozduh">Õhk</string>
+    <string name="res_stihiya_voda">Vesi</string>
+    <string name="res_stihiya_ogon">Tulekahju</string>
+
+    <string name="res_upravitel_merkuri">elavhõbe</string>
+    <string name="res_upravitel_venera">Veenus</string>
+    <string name="res_upravitel_mars">Marss</string>
+    <string name="res_upravitel_yupiter">Jupiter</string>
+    <string name="res_upravitel_saturn">Saturn</string>
+    <string name="res_upravitel_uran">Uraan</string>
+    <string name="res_upravitel_neptun">Neptuun</string>
+    <string name="res_upravitel_pluton">Pluuto</string>
+    <string name="res_upravitel_luna">Kuu</string>
+    <string name="res_upravitel_solnce">Päike</string>
+
+    <string name="res_k_oven">Jäära kivid aastakümnete kaupa\n
+                Lisaks kuule saab arvestada ka kümnendiga, mil inimene on sündinud:\n
+                1. dekaad (21.03 - 01.04) - erilise mõjuga on akvamariin, heliotroop, ametüst;\n
+                2. dekaad (02.04–11.04) – teemant (teemant);\n
+                3. dekaad (12.04 - 20.04) - smaragd, rubiin, seleniit, verekivi.</string>
+
+    <string name="res_k_telec">Sõnni kivid aastakümnete kaupa\n
+                Kõik loetletud kivid sobivad Sõnnile, kuid mõned neist sobivad eriti hästi
+                kasulik neile, kes on sündinud teatud perioodi kümnendil.\n
+                1 dekaad (21.04 - 1.05) - teemant (briiljant);\n
+                2. ja 3. dekaad (02.05 - 21.05) - smaragd ja safiir.</string>
+
+    <string name="res_k_bliznecy">Kaksikute kivid kümnendilt\n
+                1. dekaad (22.05 - 31.05) - smaragd, jaspis;\n
+                2. dekaad (01.06 - 10.06) - mäekristall, granaat, topaas;\n
+                3. dekaad (11.06 - 21.06) - pärlid, kuukivi (kaksikute naisele), safiir.</string>
+
+    <string name="res_k_rak">Vähi kivid kümnendi jooksul\n
+                Arvatakse, et talismanikivid saavad erilise jõu, kui need on valitud sünnikümnendi järgi:\n
+                1. dekaad (22.06 - 01.07) - pärlid, kuukivi;\n
+                2. dekaad (02.07 – 11.07) – smaragd, rubiin;\n
+                3. dekaad (12.07 - 22.07) - kuukivi, pärlid, rubiin.</string>
+
+    <string name="res_k_lev">Lõvikivid aastakümnete kaupa\n
+                Lisaks peamisele talismanile - rubiinile võite sõltuvalt sünnikümnendist soovitada amuletti:\n
+                1. dekaad (23. juulist 2. augustini) - rubiin, krüsoliit, heliotroop;\n
+                2. dekaad (3. kuni 12. august) - teemant (briljant), topaas;\n
+                3. dekaad (13.-23. augustini) - topaas, teemant.</string>
+
+    <string name="res_k_deva">Neitsi kivid sünniaastakümnete järgi\n
+                Lisaks sünnikuule soovitavad astroloogid arvestada ka kümnendiga, mil inimene sündis.
+                \nSellisel juhul on Neitsi talismanid:\n
+                1. dekaad (24. augustist 2. septembrini) - topaas, kollane safiir;\n
+                2. dekaad (3. kuni 12. september) - safiir, topaas, jaspis;\n
+                3. dekaad (13. kuni 22. septembrini) - safiir, lapis lazuli.</string>
+
+    <string name="res_k_vesy">Kaalude kivid sünnikümnendi järgi\n
+                Lisaks sünnikuule soovitavad astroloogid talismanikivi valimisel arvestada ka sünnikümnendiga:\n
+                1. dekaad (23. septembrist 9. oktoobrini) - teemant, seleniit, safiir;\n
+                2. dekaad (4. oktoobrist 13. oktoobrini) - teemant, ametüst, berüül;\n
+                3. dekaad (14. oktoobrist 23. oktoobrini) - teemant, opaal, tiigrisilm.</string>
+
+    <string name="res_k_skorpion">Skorpioni kivid aastakümnete kaupa\n
+                Astroloogid nimetavad Skorpioni lisatalismanid sünnikümnendi järgi:\n
+                1. dekaad (24. oktoobrist 2. novembrini) - opaal;\n
+                2. dekaad (3. novembrist 13. novembrini) - rubiin;\n
+                3. dekaad (14. novembrist 22. novembrini) - mäekristall.</string>
+
+
+    <string name="res_k_strelec">Milline kivi sobib Amburile aastakümnete kaupa:\n
+                1. dekaad (23. november - 2. detsember) Sel perioodil sündinu on rõõmsameelne ja julge inimene, alati väike seikleja. Nende talisman on ametüst.\n
+                2. dekaad (3. - 12. detsember) Sellel perioodil sündinud inimesed on muutlikud ja unistavad. Need on märgi kõige loomingulisemad esindajad.
+                \nNende talisman on krüsopraas, mis tõmbab ligi raha ja annab iseseisvuse.\n
+                3. dekaad (13. - 21. detsember) Kolmanda kümnendi esindajad on kõige sihikindlamad, nad ei näe eesmärkide saavutamisel takistusi.
+                \nNeid ümbritsevate inimeste jaoks on nad nagu päike, nad võivad rõõmustada, soojendada või põletada.
+                \nNende talismanid on kaks hinnalist korundi, rubiin ja safiir.</string>
+
+    <string name="res_k_kozerog">Õnnelikud Kaljukitse kivid kümnendi järgi:\n
+                1. dekaad (22. detsembrist 2. jaanuarini) - topaas.\n
+                2. dekaad (3.-13. jaanuar) - rubiin.\n
+                3. dekaad (14.-20. jaanuarini) - turmaliin ja granaatõun.</string>
+
+
+    <string name="res_k_vodolei">Veevalaja õnnekivid aastakümnete kaupa:
+                \n1. dekaad (21. jaanuarist 1. veebruarini) – patroneerib Veenust.
+                \nNeed on tundlikud ja empaatilised natuurid, kes võluvad ümbritsevaid oma rahulikkusega ja saavad nendega hästi läbi.
+                \nSamas puudub neil sageli enesekindlus. Pärlid aitavad seda aspekti ühtlustada.\n
+                2. dekaad (2. veebruarist 11. veebruarini) – on Merkuuri võimuses.
+                \nNeid eristab soov saavutada mis tahes eesmärki. Mitmekülgsed intellektuaalid, neile meeldib olla tähelepanu keskpunktis.
+                \nAmetüst on neile hea talisman.\n
+                3. dekaad (12.–18. veebruar) – tugevalt Kuu mõjutusel.
+                \nNeed on kirglikud õigluse eest võitlejad, sageli liiga kangekaelsed ja otsekohesed.
+                \nSafiir ja topaas suudavad neid omadusi tasakaalustada.</string>
+
+
+    <string name="res_k_ryby">Õnnekalade kivid kümnendi järgi:
+                \n1 dekaad (20. veebruarist 1. märtsini) – lihvitud ametüstist saab ideaalne talisman,
+                \nKuukivi peetakse heaks ka energia seisukohast.
+                \n2 dekaad (2. märtsist 11. märtsini) – nendel kuupäevadel sündinutel soovitame valida valge opaal,
+                \nrutiilkvarts, valge pärl, valge opaal, karvane kvarts.
+                \n3 kümnendit (12. märtsist 20. märtsini) – neile sobib korraga mitu kalliskivi:
+                \nAleksandriit, akvamariin, krüsoliit, smaragd, safiir, turmaliin.</string>
+
+    <string name="res_vy_rodilis_v">Sa oled sündinud aastal - </string>
+    <string name="res_vashe_dr_budet_v">Sinu sünnipäev on peagi - </string>
+    <string name="res_esli_god_rojdenya_bolshe_tekushego">Sisestage sünniaasta vahemikus 1012 kuni 5000</string>
+
+
+
+
 </resources>

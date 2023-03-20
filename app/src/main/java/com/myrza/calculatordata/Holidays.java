@@ -1,6 +1,7 @@
 package com.myrza.calculatordata;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -36,7 +37,7 @@ public class Holidays extends AppCompatActivity implements View.OnClickListener 
                 Intent intent_america = new Intent(this, America_activity.class);
                 startActivity(intent_america);
                 break;
-            case R.id.worldHolidays:
+            case R.id.world_holl:
                 Intent intent_world_holidays = new Intent(this, World_holidays.class);
                 startActivity(intent_world_holidays);
                 break;*/

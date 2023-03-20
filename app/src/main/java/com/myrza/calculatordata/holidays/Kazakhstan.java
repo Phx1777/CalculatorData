@@ -589,4 +589,5 @@ public class Kazakhstan {
         return calendar.get(Calendar.DAY_OF_WEEK);
     }
 
+
 }

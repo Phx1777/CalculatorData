@@ -171,4 +171,149 @@
     <string name="res_b_updated">Mis à jour</string>
 
 
+    <string name="res_txtview_info_day_of_birth">Informations sur la date de naissance\n\nEntrez jour mois année\nExemple: 17 05 1990</string>
+    <string name="res_b_info_birthday">Informations sur la date de naissance</string>
+
+    <string name="res_vash_vozrast">Votre âge</string>
+    <string name="res_do_dr_ostalos">Jusqu\'à l\'anniversaire restant:</string>
+    <string name="res_znak_zodiaka">signe du zodiaque</string>
+    <string name="res_upravitel">L\'intendant</string>
+    <string name="res_stihiya_po_zodiaku">Élément par zodiaque</string>
+    <string name="res_kamen">Calcul</string>
+    <string name="res_pozdravlyaem_s_dr">Joyeux anniversaire!</string>
+
+    <string name="res_z_oven">Bélier</string>
+    <string name="res_z_telec">Taureau</string>
+    <string name="res_z_bliznecy">Gémeaux</string>
+    <string name="res_z_rak">Cancer</string>
+    <string name="res_z_lev">Leo</string>
+    <string name="res_z_deva">Vierge</string>
+    <string name="res_z_vesy">Balance</string>
+    <string name="res_z_skorpion">Scorpion</string>
+    <string name="res_z_strelec">Sagittaire</string>
+    <string name="res_z_kozerog">Capricorne</string>
+    <string name="res_z_vodolei">Verseau</string>
+    <string name="res_z_ryby">Poissons</string>
+
+    <string name="res_god_krysy">Rat</string>
+    <string name="res_god_byka">Bœuf</string>
+    <string name="res_god_tigra">Tigre</string>
+    <string name="res_god_krolika">Lapin</string>
+    <string name="res_god_snake">Serpent</string>
+    <string name="res_god_horse">Cheval</string>
+    <string name="res_god_kozy">Chèvre</string>
+    <string name="res_god_monkey">Singe</string>
+    <string name="res_god_dragon">Dragon</string>
+    <string name="res_god_petuh">Coq</string>
+    <string name="res_god_dog">Chien</string>
+    <string name="res_god_pig">année du cochon</string>
+
+    <string name="res_ex_if_za_predely_vremeni">Entrez une année de 1012 à 5000</string>
+
+    <string name="res_god_po_vosto4nomy_kalendaryu">Année civile orientale: </string>
+
+    <string name="res_stihiya_zemlya">Terre</string>
+    <string name="res_stihiya_vozduh">Air</string>
+    <string name="res_stihiya_voda">Eau</string>
+    <string name="res_stihiya_ogon">Feu</string>
+
+    <string name="res_upravitel_merkuri">Mercure</string>
+    <string name="res_upravitel_venera">Vénus</string>
+    <string name="res_upravitel_mars">Mars</string>
+    <string name="res_upravitel_yupiter">Jupiter</string>
+    <string name="res_upravitel_saturn">Saturne</string>
+    <string name="res_upravitel_uran">Uranus</string>
+    <string name="res_upravitel_neptun">Neptune</string>
+    <string name="res_upravitel_pluton">Pluton</string>
+    <string name="res_upravitel_luna">Lune</string>
+    <string name="res_upravitel_solnce">Soleil</string>
+
+    <string name="res_k_oven">Pierres du Bélier par décennies\n
+                En plus du mois, vous pouvez également prendre en compte la décennie dans laquelle la personne est née:\n
+                1ère décade (21.03 - 01.04) - l\'aigue-marine, l\'héliotrope, l\'améthyste ont une influence particulière;\n
+                2e décade (02.04 - 11.04) - diamant (diamant);\n
+                3e décade (12.04 - 20.04) - émeraude, rubis, sélénite, pierre de sang.</string>
+
+    <string name="res_k_telec">Pierres du Taureau par décennies\n
+                Toutes les pierres répertoriées conviennent au Taureau, cependant, certaines d\'entre elles seront particulièrement
+                utile pour ceux qui sont nés dans une certaine décennie de la période.\n
+                1 décade (21.04 - 1.05) - diamant (brillant);\n
+                2e et 3e décade (02.05 - 21.05) - émeraude et saphir.</string>
+
+    <string name="res_k_bliznecy">Pierres Gémeaux par décennie\n
+                1ère décade (22.05 - 31.05) - émeraude, jaspe;\n
+                2e décade (01.06 - 10.06) - cristal de roche, grenat, topaze;\n
+                3e décennie (11.06 - 21.06) - perles, pierre de lune (pour la femme Gémeaux), saphir.</string>
+
+    <string name="res_k_rak">Pierres du Cancer par décennie\n
+                On pense que les pierres de talisman reçoivent un pouvoir spécial si elles sont sélectionnées en fonction de la décennie de naissance:\n
+                1ère décade (22.06 - 01.07) - perles, pierre de lune;\n
+                2e décade (02.07 - 11.07) - émeraude, rubis;\n
+                3e décade (12.07 - 22.07) - pierre de lune, perles, rubis.</string>
+
+    <string name="res_k_lev">Pierres de lion par décennies\n
+                En plus du talisman principal - rubis, vous pouvez recommander une amulette en fonction de la décennie de naissance:\n
+                1ère décade (du 23 juillet au 2 août) - rubis, chrysolite, héliotrope;\n
+                2e décade (du 3 au 12 août) - diamant (brillant), topaze;\n
+                3e décade (du 13 au 23 août) - topaze, diamant.</string>
+
+    <string name="res_k_deva">Pierres de la Vierge par décennies de naissance\n
+                En plus du mois de naissance, les astrologues conseillent de prendre en compte la décennie au cours de laquelle une personne est née.
+                \nDans ce cas, les talismans de la Vierge sont:\n
+                1ère décade (du 24 août au 2 septembre) - topaze, saphir jaune;\n
+                2e décade (du 3 au 12 septembre) - saphir, topaze, jaspe;\n
+                3e décade (du 13 au 22 septembre) - saphir, lapis-lazuli.</string>
+
+    <string name="res_k_vesy">Pierres de la Balance par décennie de naissance\n
+                En plus du mois de naissance, les astrologues conseillent de prendre en compte la décennie de naissance lors du choix d\'une pierre talisman:\n
+                1ère décade (du 23 septembre au 9 octobre) - diamant, sélénite, saphir;\n
+                2e décade (du 4 octobre au 13 octobre) - diamant, améthyste, béryl;\n
+                3ème décade (du 14 octobre au 23 octobre) - diamant, opale, oeil de tigre.</string>
+
+    <string name="res_k_skorpion">Pierres du Scorpion par décennies\n
+                Les astrologues nomment d\'autres talismans du Scorpion selon la décennie de naissance:\n
+                1ère décade (du 24 octobre au 2 novembre) - opale;\n
+                2ème décade (du 3 novembre au 13 novembre) - rubis;\n
+                3ème décade (du 14 novembre au 22 novembre) - cristal de roche.</string>
+
+
+    <string name="res_k_strelec">Quelle pierre convient au Sagittaire par décennies:\n
+                1ère décade (23 novembre - 2 décembre) Ceux qui sont nés à cette période sont des gens gais et courageux, toujours un peu aventuriers. Leur talisman est une améthyste.\n
+                2ème décennie (3 - 12 décembre) Les personnes nées à cette période sont changeantes et rêveuses. Ce sont les représentants les plus créatifs du signe.
+                \nLeur talisman est la chrysoprase, qui attire l\'argent et confère l\'indépendance.\n
+                3e décennie (13 au 21 décembre) Les représentants de la troisième décennie sont les plus déterminés, ils ne voient aucun obstacle à la réalisation des objectifs.
+                \nPour ceux qui les entourent, ils sont comme le soleil, ils peuvent ravir, réchauffer ou incinérer.
+                \nLeurs talismans sont deux corindons précieux, un rubis et un saphir.</string>
+
+    <string name="res_k_kozerog">Pierres porte-bonheur du Capricorne par décennie:\n
+                1ère décade (du 22 décembre au 2 janvier) - topaze.\n
+                2e décade (du 3 au 13 janvier) - rubis.\n
+                3e décade (du 14 au 20 janvier) - tourmaline et grenade.</string>
+
+
+    <string name="res_k_vodolei">Pierres porte-bonheur du Verseau par décennies :
+                \n1ère décennie (du 21 janvier au 1er février) - patronne Vénus.
+                \nCe sont des natures sensibles et empathiques qui charment leur entourage par leur calme et s\'entendent bien avec eux.
+                \nEn même temps, ils manquent souvent de confiance en eux. Les perles aideront à harmoniser cet aspect.\n
+                2e décade (du 2 février au 11 février) - sont au pouvoir de Mercure.
+                \nIls se distinguent par le désir d\'atteindre n\'importe quel objectif. Intellectuels polyvalents, ils aiment être sous les projecteurs.
+                \nL\'améthyste sera un bon talisman pour eux.\n
+                3ème décade (12 au 18 février) - fortement influencée par la Lune.
+                \nCe sont des combattants passionnés pour la justice, souvent trop têtus et directs.
+                \nLe saphir et la topaze sont capables d\'équilibrer ces qualités.</string>
+
+
+    <string name="res_k_ryby">Pierres porte-bonheur des Poissons par décennie:
+                \n1 décennie (du 20 février au 1er mars) - une améthyste facettée deviendra un talisman idéal,
+                \nLa pierre de lune est également considérée comme bonne d\'un point de vue énergétique.
+                \n2 décennie (du 2 mars au 11 mars) - nous conseillons aux personnes nées à ces dates de choisir l\'opale blanche,
+                \nQuartz rutile, perle blanche, opale blanche, quartz poilu.
+                \n3 décennie (du 12 mars au 20 mars) - Plusieurs joyaux leur conviennent à la fois :
+                \nAlexandrite, aigue-marine, chrysolite, émeraude, saphir, tourmaline.</string>
+
+    <string name="res_vy_rodilis_v">Vous êtes né en - </string>
+    <string name="res_vashe_dr_budet_v">Votre anniversaire sera dans - </string>
+    <string name="res_esli_god_rojdenya_bolshe_tekushego">Entrez l\'année de naissance dans la plage de 1012 à 5000</string>
+
+
 </resources>

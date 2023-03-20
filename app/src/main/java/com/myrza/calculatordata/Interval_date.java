@@ -1,11 +1,13 @@
 package com.myrza.calculatordata;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -31,6 +33,7 @@ public class Interval_date extends AppCompatActivity implements View.OnClickList
     public String week = null;
     public String month = null;
     public String year = null;
+
     public String interval = null;
     public String exceptionDate2Later = null;
     public String exceptionDatesEquals = null;
@@ -54,6 +57,11 @@ public class Interval_date extends AppCompatActivity implements View.OnClickList
 
     private boolean bool_clear_button_was_pressed_or_not1 = false;
     private boolean bool_clear_button_was_pressed_or_not2 = false;
+
+    ///////new*****
+    private int index = 0;
+    private final long delay = 35; // задержка между выводом символов, в миллисекундах
+    ///////
 
     @SuppressLint("NonConstantResourceId")
     @Override
@@ -137,6 +145,13 @@ public class Interval_date extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_interval_date);
 
+        /////new
+        Context context = this;
+        Resources resources = context.getResources();
+        //////
+
+
+
         getSupportActionBar().setTitle(getResources().getString(R.string.res_date_interval));
 
         editText1 = findViewById(R.id.input_data1);
@@ -144,7 +159,7 @@ public class Interval_date extends AppCompatActivity implements View.OnClickList
 
         Button do_calc_button = findViewById(R.id.button_do_calc_data);
 
-        textView = findViewById(R.id.data_result);
+        textView = findViewById(R.id.data_result_interval);
 
         clear_button_interval_date = findViewById(R.id.clear_button_interval_date);
         clear_button_interval_date.setOnClickListener(this);
@@ -200,7 +215,29 @@ public class Interval_date extends AppCompatActivity implements View.OnClickList
         });
 
 
+
+
+        ///////new*****
+        String info_text = resources.getString(R.string.result);
+
+        // создаем Handler для задержки вывода каждого символа
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                // выводим следующий символ
+                textView.setText(info_text.substring(0, index++));
+                // проверяем, достигли ли конца строки
+                if (index <= info_text.length()) {
+                    // постим задачу для следующего символа через delay миллисекунд
+                    handler.postDelayed(this, delay);
+                }
+            }
+        }, delay);
+        /////////////************
+
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);
         do_calc_button.setOnClickListener(onClickListener);
+
     }
 }

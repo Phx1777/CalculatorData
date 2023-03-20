@@ -106,7 +106,7 @@ public class Ru_hol_prazdnik_vesny_i_truda extends AppCompatActivity implements 
 
         Button b_prazdnik_vesny_i_truda = findViewById(R.id.b_get_info_about_prazd_vesny_i_truda_ru);
 
-        textView = findViewById(R.id.data_result);
+
         textView = findViewById(R.id.info_result_date);
 
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);

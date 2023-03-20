@@ -106,7 +106,6 @@ public class Kz_hol_kurban_ait extends AppCompatActivity implements View.OnClick
 
         Button get_info_about_kurban_ait = findViewById(R.id.b_get_info_about_kurban_ait);
 
-        textView = findViewById(R.id.data_result);
         textView = findViewById(R.id.info_result_date);
 
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);

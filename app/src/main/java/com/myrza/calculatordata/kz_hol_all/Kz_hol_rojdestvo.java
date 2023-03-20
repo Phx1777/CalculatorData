@@ -107,7 +107,7 @@ public class Kz_hol_rojdestvo extends AppCompatActivity implements View.OnClickL
 
         Button get_info_about_rojdestvo = findViewById(R.id.b_get_info_about_rojdestvo);
 
-        textView = findViewById(R.id.data_result);
+
         textView = findViewById(R.id.info_result_date);
 
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);

@@ -122,6 +122,14 @@
                 />
 
 
+            <!--<TextSwitcher
+                android:id="@+id/textSwitcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inAnimation="@anim/fade_in"
+                android:outAnimation="@anim/fade_out"/>-->
+
+
             <TextView
                 android:id="@+id/info_result_date"
                 android:layout_width="wrap_content"

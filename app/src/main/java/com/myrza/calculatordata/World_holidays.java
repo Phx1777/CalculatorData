@@ -13,25 +13,30 @@ import android.widget.Switch;
 
 public class World_holidays extends AppCompatActivity implements View.OnClickListener {
 
-    /*Switch aSwitch;
-    boolean nightMode;
+    Switch switchChangeTheme;
     SharedPreferences sharedPreferences;
-    SharedPreferences.Editor editor;*/
+    SharedPreferences.Editor editor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Получаем текущую тему из SharedPreferences
+        sharedPreferences = getSharedPreferences("THEME", Context.MODE_PRIVATE);
+        int currentTheme = sharedPreferences.getInt("theme", AppCompatDelegate.MODE_NIGHT_NO);
+
+        // Устанавливаем тему
+        AppCompatDelegate.setDefaultNightMode(currentTheme);
+
         setContentView(R.layout.activity_world_holidays);
 
-        /*getSupportActionBar().hide();
-        aSwitch = findViewById(R.id.switch_test_change_theme);
+        switchChangeTheme = findViewById(R.id.switch_test_change_theme);
+        switchChangeTheme.setOnClickListener(this);
 
-        sharedPreferences = getSharedPreferences("MODE", Context.MODE_PRIVATE);
-        nightMode = sharedPreferences.getBoolean("night", false);
-
-        if (nightMode) {
-            aSwitch.setChecked(true);
-        }*/
+        // Устанавливаем положение Switch в зависимости от текущей темы
+        if (currentTheme == AppCompatDelegate.MODE_NIGHT_YES) {
+            switchChangeTheme.setChecked(true);
+        }
     }
 
     @SuppressLint("NonConstantResourceId")
@@ -46,19 +51,25 @@ public class World_holidays extends AppCompatActivity implements View.OnClickLis
                 Intent intent_holidays = new Intent(this, Holidays.class);
                 startActivity(intent_holidays);
                 break;
+            case R.id.switch_test_change_theme:
+                if (switchChangeTheme.isChecked()) {
+                    // Устанавливаем ночную тему
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+                    // Сохраняем тему в SharedPreferences
+                    editor = sharedPreferences.edit();
+                    editor.putInt("theme", AppCompatDelegate.MODE_NIGHT_YES);
+                    editor.apply();
+                } else {
+                    // Устанавливаем дневную тему
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+                    // Сохраняем тему в SharedPreferences
+                    editor = sharedPreferences.edit();
+                    editor.putInt("theme", AppCompatDelegate.MODE_NIGHT_NO);
+                    editor.apply();
+                }
+                break;
             default:
                 break;
         }
-
-        /*if (nightMode) {
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-            editor = sharedPreferences.edit();
-            editor.putBoolean("night", false);
-        } else {
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
-            editor.putBoolean("night", true);
-        }
-
-        editor.apply();*/
     }
 }

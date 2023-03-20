@@ -105,7 +105,6 @@ public class Ru_hol_den_rossii extends AppCompatActivity implements View.OnClick
 
         Button b_den_rossii_ru = findViewById(R.id.b_get_info_about_den_rossii_ru);
 
-        textView = findViewById(R.id.data_result);
         textView = findViewById(R.id.info_result_date);
 
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);

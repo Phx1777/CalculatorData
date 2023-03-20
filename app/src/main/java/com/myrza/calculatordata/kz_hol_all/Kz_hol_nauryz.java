@@ -106,7 +106,7 @@ public class Kz_hol_nauryz extends AppCompatActivity implements View.OnClickList
 
         Button get_info_about_nauryz = findViewById(R.id.b_get_info_about_nauryz);
 
-        textView = findViewById(R.id.data_result);
+
         textView = findViewById(R.id.info_result_date);
 
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);

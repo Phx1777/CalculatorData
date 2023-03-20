@@ -107,7 +107,6 @@ public class Ru_hol_march8 extends AppCompatActivity implements View.OnClickList
 
         Button get_info_about_march8 = findViewById(R.id.b_get_info_about_march8_ru);
 
-        textView = findViewById(R.id.data_result);
         textView = findViewById(R.id.info_result_date);
 
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);

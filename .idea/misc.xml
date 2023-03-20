@@ -11,9 +11,11 @@
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_calculate_data.xml" value="0.13999999999999999" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_count_work_and_hol_days.xml" value="0.14666666666666667" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_counting_time.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_fade_in.xml" value="0.1" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_get_date_info.xml" value="0.16666666666666666" />
-        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_holidays.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_holidays.xml" value="0.1" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_how_many_days_until_the.xml" value="0.22135416666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_info_day_of_birth.xml" value="0.16666666666666666" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_interval_date.xml" value="0.1" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_kazakhstan.xml" value="0.16666666666666666" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/activity_kz_hol_den_konstitucii.xml" value="0.16666666666666666" />
@@ -48,7 +50,9 @@
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/date_information.xml" value="0.22135416666666666" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/fragment_first.xml" value="0.22135416666666666" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/layout/fragment_second.xml" value="0.22135416666666666" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/layout/switch_layout.xml" value="0.13451086956521738" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/menu/main_menu.xml" value="0.17848101265822786" />
+        <entry key="..\:/Android/calculatorData/app/src/main/res/menu/menu_main.xml" value="0.18076923076923077" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/mipmap-anydpi-v26/ico_calc_ff.xml" value="0.1225" />
         <entry key="..\:/Android/calculatorData/app/src/main/res/mipmap-anydpi-v26/iconCalcData.xml" value="0.1" />
       </map>

@@ -170,4 +170,151 @@
     <string name="res_b_updated">Güncellenmiş</string>
 
 
+
+    <string name="res_txtview_info_day_of_birth">Doğum tarihi bilgileri\n\nGirmek gün ay yıl\nÖrnek: 17 05 1990</string>
+    <string name="res_b_info_birthday">Doğum tarihi bilgileri</string>
+
+    <string name="res_vash_vozrast">Yaşınız</string>
+    <string name="res_do_dr_ostalos">Doğum gününe kadar kaldı:</string>
+    <string name="res_znak_zodiaka">Burç</string>
+    <string name="res_upravitel">Kahya</string>
+    <string name="res_stihiya_po_zodiaku">Zodyak tarafından öğe</string>
+    <string name="res_kamen">Taş</string>
+    <string name="res_pozdravlyaem_s_dr">Doğum günün kutlu olsun!</string>
+
+    <string name="res_z_oven">Koç burcu</string>
+    <string name="res_z_telec">Boğa burcu</string>
+    <string name="res_z_bliznecy">İkizler burcu</string>
+    <string name="res_z_rak">Kanser</string>
+    <string name="res_z_lev">Aslan</string>
+    <string name="res_z_deva">Başak</string>
+    <string name="res_z_vesy">Terazi</string>
+    <string name="res_z_skorpion">Akrep</string>
+    <string name="res_z_strelec">yay Burcu</string>
+    <string name="res_z_kozerog">Oğlak</string>
+    <string name="res_z_vodolei">Kova</string>
+    <string name="res_z_ryby">balık Burcu</string>
+
+    <string name="res_god_krysy">Fare</string>
+    <string name="res_god_byka">Öküz</string>
+    <string name="res_god_tigra">Kaplan</string>
+    <string name="res_god_krolika">Tavşan</string>
+    <string name="res_god_snake">Yılan</string>
+    <string name="res_god_horse">Atış</string>
+    <string name="res_god_kozy">Keçi</string>
+    <string name="res_god_monkey">Maymun</string>
+    <string name="res_god_dragon">Ejderha</string>
+    <string name="res_god_petuh">Horoz</string>
+    <string name="res_god_dog">Köpek</string>
+    <string name="res_god_pig">Domuz</string>
+
+    <string name="res_ex_if_za_predely_vremeni">1012\'den 5000\'e kadar bir yıl girin</string>
+
+    <string name="res_god_po_vosto4nomy_kalendaryu">Doğu takvim yılı: </string>
+
+    <string name="res_stihiya_zemlya">Toprak</string>
+    <string name="res_stihiya_vozduh">Hava</string>
+    <string name="res_stihiya_voda">Su</string>
+    <string name="res_stihiya_ogon">Ateş</string>
+
+    <string name="res_upravitel_merkuri">Merkür</string>
+    <string name="res_upravitel_venera">Venüs</string>
+    <string name="res_upravitel_mars">Mars</string>
+    <string name="res_upravitel_yupiter">Jüpiter</string>
+    <string name="res_upravitel_saturn">Satürn</string>
+    <string name="res_upravitel_uran">Uranüs</string>
+    <string name="res_upravitel_neptun">Neptün</string>
+    <string name="res_upravitel_pluton">Plüton</string>
+    <string name="res_upravitel_luna">Ay</string>
+    <string name="res_upravitel_solnce">Güneş</string>
+
+    <string name="res_k_oven">Yıllara Göre Koç Taşları\n
+                Aya ek olarak, kişinin doğduğu on yılı da dikkate alabilirsiniz:\n
+                1. on yıl (21.03 - 01.04) - akuamarin, kediotu, ametist özel bir etkiye sahiptir;\n
+                2. on yıl (02.04 - 11.04) - elmas (elmas);\n
+                3. on yıl (12.04 - 20.04) - zümrüt, yakut, selenit, kan taşı.</string>
+
+    <string name="res_k_telec">Yıllara Göre Boğa Taşları\n
+                Listelenen taşların tümü Boğa için uygundur, ancak bazıları özellikle olacaktır.
+                dönemin belirli bir on yılında doğanlar için yararlıdır.\n
+                1 on yıl (21.04 - 1.05) - elmas (parlak);\n
+                2. ve 3. on yıl (02.05 - 21.05) - zümrüt ve safir.</string>
+
+    <string name="res_k_bliznecy">On Yıla Göre İkizler Taşları\n
+                1. on yıl (22.05 - 31.05) - zümrüt, jasper;\n
+                2. on yıl (01.06 - 10.06) - kaya kristali, lal taşı, topaz;\n
+                3. on yıl (11.06 - 21.06) - inciler, aytaşı (İkizler kadını için), safir.</string>
+
+    <string name="res_k_rak">On yıllara göre Yengeç Taşları\n
+                Tılsım taşlarının doğum on yılına göre seçilmeleri halinde özel bir güce sahip olduklarına inanılır:\n
+                1. on yıl (22.06 - 01.07) - inciler, aytaşı;\n
+                2. on yıl (02.07 - 11.07) - zümrüt, yakut;\n
+                3. on yıl (12.07 - 22.07) - aytaşı, inciler, yakut.</string>
+
+    <string name="res_k_lev">Yıllara Göre Aslan Taşları\n
+                Ana tılsım olan yakut\'a ek olarak, doğum on yılına bağlı olarak bir muska önerebilirsiniz:\n
+                1. on yıl (23 Temmuz\'dan 2 Ağustos\'a kadar) - yakut, krizolit, kediotu;\n
+                2. on yıl (3 - 12 Ağustos) - elmas (parlak), topaz;\n
+                3. on yıl (13 - 23 Ağustos) - topaz, elmas.</string>
+
+    <string name="res_k_deva">Doğum Yıllarına Göre Başak Taşları\n
+                Astrologlar, doğum ayına ek olarak, bir kişinin doğduğu on yılı da hesaba katmayı tavsiye eder.
+                \nBu durumda Başak\'ın tılsımları:\n
+                1. on yıl (24 Ağustos - 2 Eylül) - topaz, sarı safir;\n
+                2. on yıl (3 - 12 Eylül) - safir, topaz, jasper;\n
+                3. on yıl (13-22 Eylül arası) - safir, lapis lazuli.</string>
+
+    <string name="res_k_vesy">Doğum yıllarına göre Terazi Taşları\n
+                Astrologlar, tılsım taşı seçerken doğum ayına ek olarak doğum on yılını da dikkate almanızı önerir:\n
+                1. on yıl (23 Eylül\'den 9 Ekim\'e kadar) - elmas, selenit, safir;\n
+                2. on yıl (4 Ekim\'den 13 Ekim\'e kadar) - elmas, ametist, beril;\n
+                3. on yıl (14 Ekim\'den 23 Ekim\'e kadar) - elmas, opal, kaplan gözü.</string>
+
+    <string name="res_k_skorpion">Yıllara Göre Akrep Taşları\n
+                Astrologlar, Akrep\'in ek tılsımlarını doğum on yılına göre adlandırır:\n
+                1. on yıl (24 Ekim - 2 Kasım) - opal;\n
+                2. on yıl (3 Kasım\'dan 13 Kasım\'a kadar) - yakut;\n
+                3. on yıl (14 Kasım\'dan 22 Kasım\'a kadar) - kaya kristali.</string>
+
+
+    <string name="res_k_strelec">On yıllardır Yay burcuna hangi taş yakışır:\n
+                1. on yıl (23 Kasım - 2 Aralık) Bu dönemde doğanlar neşeli ve cesur insanlardır, her zaman biraz maceracıdırlar. Tılsımları bir ametist.\n
+                2. on yıl (3 - 12 Aralık) Bu dönemde doğan insanlar değişken ve hayalperesttir. Bunlar burcun en yaratıcı temsilcileridir.
+                \nTılsımları, parayı çeken ve bağımsızlık veren krisoprazdır.\n
+                3. on yıl (13 - 21 Aralık) Üçüncü on yılın temsilcileri en amaçlı olanlardır, hedeflere ulaşmanın önünde hiçbir engel görmezler.
+                \nEtrafındakiler için güneş gibidirler, keyif verebilir, ısıtabilir veya yakabilirler.
+                \nTılsımları iki değerli korindon, bir yakut ve bir safirdir.</string>
+
+    <string name="res_k_kozerog">On yıla göre Şanslı Oğlak taşları:\n
+                1. on yıl (22 Aralık - 2 Ocak arası) - topaz.\n
+                2. on yıl (3 - 13 Ocak) - yakut.\n
+                3. on yıl (14-20 Ocak arası) - turmalin ve nar.</string>
+
+
+    <string name="res_k_vodolei">On yıllardır Kova\'nın şanslı taşları:
+                \n1. on yıl (21 Ocak\'tan 1 Şubat\'a kadar) - Venüs\'ü korur.
+                \nBunlar, sakinlikleri ile çevrelerindeki insanları büyüleyen ve onlarla iyi geçinen, duyarlı ve empatik doğalardır.
+                \nAynı zamanda genellikle özgüvenleri yoktur. İnciler bu yönü uyumlu hale getirmeye yardımcı olacaktır.\n
+                2. on yıl (2 Şubat\'tan 11 Şubat\'a kadar) - Merkür\'ün gücündedir.
+                \nHerhangi bir hedefe ulaşma arzusu ile ayırt edilirler. Çok yönlü entelektüeller, ilgi odağı olmayı severler.
+                \nAmetist onlar için iyi bir tılsım olacaktır.\n
+                3. on yıl (12-18 Şubat) - Ay\'dan güçlü bir şekilde etkilenir.
+                \nBunlar, adalet için tutkulu savaşçılardır, genellikle aşırı inatçı ve açık sözlüdürler.
+                \nSafir ve topaz bu nitelikleri dengeleyebilir.</string>
+
+
+    <string name="res_k_ryby">On yıllara göre Şanslı Balık taşları:
+                \n1 on yıl (20 Şubat\'tan 1 Mart\'a kadar) - yönlü bir ametist ideal bir tılsım olacak,
+                \nAytaşı, enerji açısından da iyi kabul edilir.
+                \n2 on yıl (2 Mart\'tan 11 Mart\'a kadar) - bu tarihlerde doğanlara beyaz opal seçmelerini tavsiye ediyoruz,
+                \nrutil kuvars, beyaz inci, beyaz opal, tüylü kuvars.
+                \n3 on yıl (12 Mart\'tan 20 Mart\'a kadar) - Aynı anda birkaç mücevher onlara yakışır:
+                \nAlexandrite, akuamarin, krizolit, zümrüt, safir, turmalin.</string>
+
+    <string name="res_vy_rodilis_v">Siz doğdun - </string>
+    <string name="res_vashe_dr_budet_v">Doğum günün olacak - </string>
+    <string name="res_esli_god_rojdenya_bolshe_tekushego">Doğum yılını 1012 ila 5000 aralığında girin</string>
+
+
+
 </resources>

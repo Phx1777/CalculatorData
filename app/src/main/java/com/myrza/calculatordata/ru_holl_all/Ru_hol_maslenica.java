@@ -105,7 +105,6 @@ public class Ru_hol_maslenica extends AppCompatActivity implements View.OnClickL
 
         Button b_maslenica = findViewById(R.id.b_get_info_about_maslenica_ru);
 
-        textView = findViewById(R.id.data_result);
         textView = findViewById(R.id.info_result_date);
 
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);

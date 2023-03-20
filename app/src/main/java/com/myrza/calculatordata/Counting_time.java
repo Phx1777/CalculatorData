@@ -3,9 +3,12 @@ package com.myrza.calculatordata;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -69,6 +72,11 @@ public class Counting_time extends AppCompatActivity implements View.OnClickList
     private boolean bool_clear_button_was_pressed_or_not1 = false;
     private boolean bool_clear_button_was_pressed_or_not2 = false;
     private boolean bool_clear_button_was_pressed_or_not3 = false;
+
+    ///////new*****
+    private int index = 0;
+    private final long delay = 35; // задержка между выводом символов, в миллисекундах
+    ///////
 
     @SuppressLint("NonConstantResourceId")
     @Override
@@ -189,6 +197,11 @@ public class Counting_time extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_counting_time);
 
+        /////new
+        Context context = this;
+        Resources resources = context.getResources();
+        //////
+
         getSupportActionBar().setTitle(getResources().getString(R.string.res_b_counting_time));
 
         edit_entered_data = findViewById(R.id.edit_counting_date);
@@ -278,9 +291,29 @@ public class Counting_time extends AppCompatActivity implements View.OnClickList
             }
         });
 
+        ///////new*****
+        String info_text = resources.getString(R.string.res_textview_counting_date);
+
+        // создаем Handler для задержки вывода каждого символа
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                // выводим следующий символ
+                textView.setText(info_text.substring(0, index++));
+                // проверяем, достигли ли конца строки
+                if (index <= info_text.length()) {
+                    // постим задачу для следующего символа через delay миллисекунд
+                    handler.postDelayed(this, delay);
+                }
+            }
+        }, delay);
+        /////////////************
 
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);
         get_info_about_count.setOnClickListener(onClickListener);
+
+
     }
 
 }

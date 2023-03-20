@@ -168,4 +168,152 @@
     <string name="res_b_updated">Aktualisiert</string>
 
 
+
+    <string name="res_txtview_info_day_of_birth">Informationen zum Geburtsdatum\n\nTag Monat Jahr eingeben\nBeispiel: 17 05 1990</string>
+    <string name="res_b_info_birthday">Informationen zum Geburtsdatum</string>
+
+
+    <string name="res_vash_vozrast">Ihr Alter</string>
+    <string name="res_do_dr_ostalos">Bis zum Geburtstag übrig:</string>
+    <string name="res_znak_zodiaka">Sternzeichen</string>
+    <string name="res_upravitel">Der Verwalter</string>
+    <string name="res_stihiya_po_zodiaku">Element nach Sternzeichen</string>
+    <string name="res_kamen">Stein</string>
+    <string name="res_pozdravlyaem_s_dr">Alles Gute zum Geburtstag!</string>
+
+    <string name="res_z_oven">Widder</string>
+    <string name="res_z_telec">Stier</string>
+    <string name="res_z_bliznecy">Zwillinge</string>
+    <string name="res_z_rak">Krebs</string>
+    <string name="res_z_lev">Löwe</string>
+    <string name="res_z_deva">Jungfrau</string>
+    <string name="res_z_vesy">Waage</string>
+    <string name="res_z_skorpion">Skorpion</string>
+    <string name="res_z_strelec">Schütze</string>
+    <string name="res_z_kozerog">Steinbock</string>
+    <string name="res_z_vodolei">Wassermann</string>
+    <string name="res_z_ryby">Fische</string>
+
+    <string name="res_god_krysy">Ratte</string>
+    <string name="res_god_byka">Ochse</string>
+    <string name="res_god_tigra">Tiger</string>
+    <string name="res_god_krolika">Kaninchen</string>
+    <string name="res_god_snake">Schlange</string>
+    <string name="res_god_horse">Pferd</string>
+    <string name="res_god_kozy">Ziege</string>
+    <string name="res_god_monkey">Affe</string>
+    <string name="res_god_dragon">Drachen</string>
+    <string name="res_god_petuh">Hahn</string>
+    <string name="res_god_dog">Hund</string>
+    <string name="res_god_pig">Schwein</string>
+
+    <string name="res_ex_if_za_predely_vremeni">Geben Sie ein Jahr von 1012 bis 5000 ein</string>
+
+    <string name="res_god_po_vosto4nomy_kalendaryu">Östliches Kalenderjahr: </string>
+
+    <string name="res_stihiya_zemlya">Erde</string>
+    <string name="res_stihiya_vozduh">Luft</string>
+    <string name="res_stihiya_voda">Wasser</string>
+    <string name="res_stihiya_ogon">Feuer</string>
+
+    <string name="res_upravitel_merkuri">Quecksilber</string>
+    <string name="res_upravitel_venera">Venus</string>
+    <string name="res_upravitel_mars">Mars</string>
+    <string name="res_upravitel_yupiter">Jupiter</string>
+    <string name="res_upravitel_saturn">Saturn</string>
+    <string name="res_upravitel_uran">Uranus</string>
+    <string name="res_upravitel_neptun">Neptun</string>
+    <string name="res_upravitel_pluton">Pluto</string>
+    <string name="res_upravitel_luna">Mond</string>
+    <string name="res_upravitel_solnce">Sonne</string>
+
+    <string name="res_k_oven">Widder-Steine nach Jahrzehnten\n
+                Neben dem Monat können Sie auch das Jahrzehnt berücksichtigen, in dem die Person geboren wurde:\n
+                1. Dekade (21.03 - 01.04) - Aquamarin, Heliotrop, Amethyst haben einen besonderen Einfluss;\n
+                2. Dekade (02.04 - 11.04) - Diamant (Diamant);\n
+                3. Dekade (12.04 - 20.04) - Smaragd, Rubin, Selenit, Blutstein.</string>
+
+    <string name="res_k_telec">Stiersteine nach Jahrzehnten\n
+                Alle aufgeführten Steine sind für Stier geeignet, einige davon jedoch besonders
+                nützlich für diejenigen, die in einem bestimmten Jahrzehnt der Periode geboren wurden.\n
+                1 Dekade (21.04 - 1.05) - Diamant (brillant);\n
+                2. und 3. Dekade (02.05 - 21.05) - Smaragd und Saphir.</string>
+
+    <string name="res_k_bliznecy">Zwillingssteine nach Dekade\n
+                1. Dekade (22.05 - 31.05) - Smaragd, Jaspis;\n
+                2. Dekade (01.06 - 10.06) - Bergkristall, Granat, Topas;\n
+                3. Dekade (11.06 - 21.06) - Perlen, Mondstein (für die Zwillingsfrau), Saphir.</string>
+
+    <string name="res_k_rak">Stones of Cancer bis zum Jahrzehnt\n
+                Es wird angenommen, dass Talismansteine besondere Kraft erhalten, wenn sie nach dem Geburtsjahrzehnt ausgewählt werden:\n
+                1. Dekade (22.06 - 01.07) - Perlen, Mondstein;\n
+                2. Dekade (02.07 - 11.07) - Smaragd, Rubin;\n
+                3. Dekade (12.07 - 22.07) - Mondstein, Perlen, Rubin.</string>
+
+    <string name="res_k_lev">Löwensteine nach Jahrzehnten\n
+                Neben dem Haupttalisman Rubin können Sie je nach Geburtsjahrzehnt ein Amulett empfehlen:\n
+                1. Dekade (vom 23. Juli bis 2. August) - Rubin, Chrysolith, Heliotrop;\n
+                2. Dekade (vom 3. bis 12. August) - Diamant (Brillant), Topas;\n
+                3. Jahrzehnt (vom 13. bis 23. August) - Topas, Diamant.</string>
+
+    <string name="res_k_deva">Jungfrau-Steine nach Jahrzehnten der Geburt\n
+                Astrologen raten, neben dem Geburtsmonat auch das Jahrzehnt zu berücksichtigen, in dem eine Person geboren wurde.
+                \nIn diesem Fall sind die Talismane der Jungfrau:\n
+                1. Dekade (vom 24. August bis 2. September) - Topas, gelber Saphir;\n
+                2. Dekade (vom 3. bis 12. September) - Saphir, Topas, Jaspis;\n
+                3. Jahrzehnt (vom 13. bis 22. September) - Saphir, Lapislazuli.</string>
+
+    <string name="res_k_vesy">Steine der Waage nach Geburtsjahrzehnt\n
+                Zusätzlich zum Geburtsmonat raten Astrologen, bei der Auswahl eines Talismansteins das Geburtsjahrzehnt zu berücksichtigen:\n
+                1. Dekade (vom 23. September bis 9. Oktober) – Diamant, Selenit, Saphir;\n
+                2. Dekade (vom 4. bis 13. Oktober) – Diamant, Amethyst, Beryll;\n
+                3. Jahrzehnt (vom 14. Oktober bis 23. Oktober) - Diamant, Opal, Tigerauge.</string>
+
+    <string name="res_k_skorpion">Skorpionsteine nach Jahrzehnten\n
+                Astrologen benennen zusätzliche Talismane des Skorpions nach dem Geburtsjahrzehnt:\n
+                1. Dekade (vom 24. Oktober bis 2. November) - Opal;\n
+                2. Dekade (vom 3. November bis 13. November) - Rubin;\n
+                3. Jahrzehnt (vom 14. November bis 22. November) - Bergkristall.</string>
+
+
+    <string name="res_k_strelec">Welcher Stein passt um Jahrzehnte zu Schütze:\n
+                1. Dekade (23. November - 2. Dezember) Die in dieser Zeit Geborenen sind fröhliche und mutige Menschen, immer auch kleine Abenteurer. Ihr Talisman ist ein Amethyst.\n
+                2. Dekade (3. - 12. Dezember) Menschen, die in dieser Zeit geboren wurden, sind wandelbar und verträumt. Dies sind die kreativsten Vertreter des Zeichens.
+                \nIhr Talisman ist Chrysopras, der Geld anzieht und Unabhängigkeit gewährt.\n
+                3. Dekade (13. - 21. Dezember) Die Vertreter der dritten Dekade sind am zielstrebigsten, sie sehen keine Hindernisse, um Ziele zu erreichen.
+                \nFür die um sie herum sind sie wie die Sonne, sie können erfreuen, wärmen oder verbrennen.
+                \nIhre Talismane sind zwei kostbare Korunde, ein Rubin und ein Saphir.</string>
+
+    <string name="res_k_kozerog">Steinbock-Glückssteine nach Jahrzehnt:\n
+                1. Dekade (vom 22. Dezember bis 2. Januar) – Topas.\n
+                2. Dekade (3. bis 13. Januar) – Rubin.\n
+                3. Jahrzehnt (vom 14. bis 20. Januar) - Turmalin und Granatapfel.</string>
+
+
+    <string name="res_k_vodolei">Glückssteine des Wassermanns nach Jahrzehnten:
+                \n1. Dekade (vom 21. Januar bis 1. Februar) – bevormundet die Venus.
+                \nDies sind sensible und empathische Naturen, die ihre Umgebung mit ihrer Ruhe bezaubern und gut mit ihnen auskommen.
+                \nGleichzeitig mangelt es ihnen oft an Selbstvertrauen. Perlen werden helfen, diesen Aspekt zu harmonisieren.\n
+                2. Jahrzehnt (vom 2. Februar bis 11. Februar) - sind in der Macht von Merkur.
+                \nSie zeichnen sich durch den Wunsch aus, jedes Ziel zu erreichen. Vielseitige Intellektuelle, sie stehen gerne im Rampenlicht.
+                \nAmethyst wird ein guter Talisman für sie sein.\n
+                3. Dekade (12. bis 18. Februar) - stark vom Mond beeinflusst.
+                \nDies sind leidenschaftliche Kämpfer für Gerechtigkeit, oft übermäßig stur und geradlinig.
+                \nSaphir und Topas sind in der Lage, diese Eigenschaften auszugleichen.</string>
+
+
+    <string name="res_k_ryby">Fische-Glückssteine nach Jahrzehnten:
+                \n1 Jahrzehnt (vom 20. Februar bis 1. März) - ein facettierter Amethyst wird zum idealen Talisman,
+                \nMondstein gilt auch aus energetischer Sicht als gut.
+                \n2 Jahrzehnte (vom 2. März bis zum 11. März) - wir raten denjenigen, die an diesen Daten geboren wurden, weißen Opal zu wählen,
+                \nRutilquarz, weiße Perle, weißer Opal, haariger Quarz.
+                \n3 Jahrzehnt (vom 12. März bis zum 20. März) - Mehrere Edelsteine passen ihnen gleichzeitig:
+                \nAlexandrit, Aquamarin, Chrysolith, Smaragd, Saphir, Turmalin.</string>
+
+    <string name="res_vy_rodilis_v">Du wurdest geboren in -</string>
+    <string name="res_vashe_dr_budet_v">Dein Geburtstag ist in - </string>
+    <string name="res_esli_god_rojdenya_bolshe_tekushego">Geben Sie das Geburtsjahr im Bereich von 1012 bis 5000 ein</string>
+
+
+
 </resources>

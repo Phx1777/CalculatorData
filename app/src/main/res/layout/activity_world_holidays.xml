@@ -68,6 +68,17 @@
 
                 />
 
+            <Switch
+                android:id="@+id/switch_test_change_theme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="change Theme"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black"
+                >
+
+            </Switch>
+
 
             <TextView
                 android:layout_width="match_parent"

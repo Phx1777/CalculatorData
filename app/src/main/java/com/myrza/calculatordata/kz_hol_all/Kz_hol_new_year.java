@@ -109,7 +109,7 @@ public class Kz_hol_new_year extends AppCompatActivity implements View.OnClickLi
 
         Button get_info_about_new_year = findViewById(R.id.b_get_info_about_new_year);
 
-        textView = findViewById(R.id.data_result);
+
         textView = findViewById(R.id.info_result_date);
 
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);

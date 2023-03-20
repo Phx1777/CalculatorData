@@ -3,9 +3,12 @@ package com.myrza.calculatordata;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -63,6 +66,12 @@ public class Get_date_info extends AppCompatActivity implements View.OnClickList
     private boolean bool_clear_button_was_pressed_or_not = false;
 
 
+    ///////new*****
+    private int index = 0;
+    private final long delay = 35; // задержка между выводом символов, в миллисекундах
+    ///////
+
+
     @SuppressLint("NonConstantResourceId")
     @Override
     public void onClick(View v) {
@@ -76,15 +85,6 @@ public class Get_date_info extends AppCompatActivity implements View.OnClickList
                 Intent intent2 = new Intent(this, MainActivity.class);
                 startActivity(intent2);
                 break;
-            /*case R.id.share_test:
-                Intent intent3 = new Intent(Intent.ACTION_SEND);
-                intent3.setType("text/plain");
-                String body = "Download this app";
-                String sub = "http://play.google.com";
-                intent3.putExtra(Intent.EXTRA_TEXT, body);
-                intent3.putExtra(Intent.EXTRA_TEXT, sub);
-                startActivity(Intent.createChooser(intent3, "Share using"));
-                break;*/
             default:
                 break;
         }
@@ -153,19 +153,19 @@ public class Get_date_info extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_get_date_info);
 
+        Context context = this;
+        Resources resources = context.getResources();
+
         getSupportActionBar().setTitle(getResources().getString(R.string.get_date_information));
 
         editText3 = findViewById(R.id.date_info_edit);
 
         Button get_info_about_date = findViewById(R.id.b_get_info_about_date);
 
-        textView = findViewById(R.id.data_result);
         textView = findViewById(R.id.info_result_date);
 
         clear_button_get_date_info = findViewById(R.id.clear_button_get_date_info);
         clear_button_get_date_info.setOnClickListener(this);
-
-        /////new
 
         clear_button_get_date_info.setOnTouchListener(new View.OnTouchListener() {
             @Override
@@ -177,8 +177,6 @@ public class Get_date_info extends AppCompatActivity implements View.OnClickList
                 return false;
             }
         });
-
-        /////
 
 
         b_switch = (Switch) findViewById(R.id.b_switch_current_data_activity_get_date);
@@ -199,28 +197,30 @@ public class Get_date_info extends AppCompatActivity implements View.OnClickList
         });
 
 
-        View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);
+        ///////new!
+        String info_text = resources.getString(R.string.infoAboutDateTextView);
+        // создаем Handler для задержки вывода каждого символа
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                // выводим следующий символ
+                textView.setText(info_text.substring(0, index++));
+                // проверяем, достигли ли конца строки
+                if (index <= info_text.length()) {
+                    // постим задачу для следующего символа через delay миллисекунд
+                    handler.postDelayed(this, delay);
+                }
+            }
+        }, delay);
+        /////////////new!
 
+
+        View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);
         get_info_about_date.setOnClickListener(onClickListener);
 
-        //////*********
-
-        /*CardView share = findViewById(R.id.share_test);
-        share.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_SEND);
-                intent.setType("text/plain");
-                String body = "Download this app";
-                String sub = showResult;
-                intent.putExtra(Intent.EXTRA_TEXT, body);
-                intent.putExtra(Intent.EXTRA_TEXT, sub);
-                startActivity(Intent.createChooser(intent, "share using"));
-                *//*startActivity(intent);*//*
-            }
-        });*/
-
-        ///////************
     }
 
+
 }
+

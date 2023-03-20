@@ -107,7 +107,6 @@ public class Kz_hol_den_konstitucii extends AppCompatActivity implements View.On
 
         Button get_info_about_den_konstitucii = findViewById(R.id.b_get_info_about_den_konstitucii);
 
-        textView = findViewById(R.id.data_result);
         textView = findViewById(R.id.info_result_date);
 
         View.OnClickListener onClickListener = view -> new MyTask().execute(showResult);
